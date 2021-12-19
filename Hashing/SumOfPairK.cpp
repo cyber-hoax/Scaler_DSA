@@ -11,15 +11,15 @@
 using namespace std ;
 
 int main() {
- int A[] = {2,7,11,15};
-int k = 13;
+ int A[] = {1,2,3,4,5};
+int B = 5;
 int n = size(A);
 
-unordered_map<int, int> B ;
+unordered_map<int, int> K ;
 
 for(int i = 0 ; i <n ; i++ ){
-    if(B.find(A[i]) == B.end()){
-        B.insert({A[i],1}) ;
+    if(K.find(A[i]) == K.end()){
+        K.insert({A[i],1}) ;
     }
     
 }
@@ -27,11 +27,13 @@ for(int i = 0 ; i <n ; i++ ){
 
 for(int i = 0 ; i<n ;i++){
     
-    if(B.find(k - A[i]) != B.end() && A[i] != k - A[i]){
-        cout <<A[i] << endl;
+    if(K.find(B - A[i]) != K.end() && A[i] != B - A[i]){
+        cout <<A[i] <<" " ;
     }
     
 }
+    
+
 return 0 ;
 }
 
