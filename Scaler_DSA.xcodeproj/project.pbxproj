@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		8C42E48B276FA00B00D2D841 /* subarray_Given_Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB21B49276C9ECF008FEFFB /* subarray_Given_Sum.cpp */; };
 		8C42E4982770DC3400D2D841 /* creatingNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C42E4972770DC3400D2D841 /* creatingNode.cpp */; };
-		8C4690AD2770F84C001B9381 /* pointers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4690AC2770F84C001B9381 /* pointers.cpp */; };
+		8C4690AE277106C0001B9381 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4690A72770F2AA001B9381 /* main.cpp */; };
 		8C6A591B276A31AB007DDBFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A591A276A31AB007DDBFE /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -287,7 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C4690AD2770F84C001B9381 /* pointers.cpp in Sources */,
+				8C4690AE277106C0001B9381 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

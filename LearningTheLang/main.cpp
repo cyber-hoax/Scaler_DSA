@@ -23,8 +23,18 @@ int main(){
     name.LastName = "Tamang" ;
     
     
-    cout << name.firstName << " " + name.LastName;
+    cout << name.firstName << " " + name.LastName << endl;
     
+    struct Name *p = &name;
+    p-> firstName = "carl";
+    
+    cout << name.firstName<< endl;
+    
+    
+    struct Name *d ;
+    d = new Name() ;
+    d -> LastName = "Singh";
+    cout<<name.LastName<< endl;
     return 0 ;
 }
 

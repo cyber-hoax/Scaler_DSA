@@ -22,7 +22,10 @@ int main(){
     //memory allocating array in heap
     
     p = new int[5];
-    
+    int &d = a;
+    cout << a <<endl;
+    d++;
+    cout<< a;
     
     
     return 0 ;
