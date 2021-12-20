@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		8C42E48B276FA00B00D2D841 /* subarray_Given_Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB21B49276C9ECF008FEFFB /* subarray_Given_Sum.cpp */; };
 		8C42E4982770DC3400D2D841 /* creatingNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C42E4972770DC3400D2D841 /* creatingNode.cpp */; };
-		8C4690AE277106C0001B9381 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4690A72770F2AA001B9381 /* main.cpp */; };
+		8C4690B02771094C001B9381 /* func.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4690AF2771094C001B9381 /* func.cpp */; };
 		8C6A591B276A31AB007DDBFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A591A276A31AB007DDBFE /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +59,7 @@
 		8C4690A52770F2AA001B9381 /* LearningTheLang */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LearningTheLang; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4690A72770F2AA001B9381 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C4690AC2770F84C001B9381 /* pointers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pointers.cpp; sourceTree = "<group>"; };
+		8C4690AF2771094C001B9381 /* func.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = func.cpp; sourceTree = "<group>"; };
 		8C6A5917276A31AB007DDBFE /* Scaler_DSA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Scaler_DSA; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C6A591A276A31AB007DDBFE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C73C99B276E5C6400C3A4DC /* SumOfPairK.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SumOfPairK.cpp; sourceTree = "<group>"; };
@@ -114,6 +115,7 @@
 			children = (
 				8C4690A72770F2AA001B9381 /* main.cpp */,
 				8C4690AC2770F84C001B9381 /* pointers.cpp */,
+				8C4690AF2771094C001B9381 /* func.cpp */,
 			);
 			path = LearningTheLang;
 			sourceTree = "<group>";
@@ -287,7 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C4690AE277106C0001B9381 /* main.cpp in Sources */,
+				8C4690B02771094C001B9381 /* func.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
