@@ -13,8 +13,8 @@
 using namespace std ;
 
 int main() {
-int A [] = {5, 10, 20, 100, 105};
-int B = 110;
+int A [] = {1,2,3,4,5};
+int B = 5;
 int n = size(A);
 int sum = 0;
     
@@ -47,14 +47,15 @@ for(int i = 0 ; i < n ; i ++) {
 
     }
    
-
+    int count = 0 ;
    
     for (auto i :  A)
         if(result.find(i) != result.end()){
             cout<< i << " " ;
         }
         else{
-            cout << -1 ;
+            count  = -1;
+            cout << count ;
         }
     
      return 0 ;
