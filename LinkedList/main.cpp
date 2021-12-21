@@ -7,9 +7,42 @@
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+using  namespace std ;
+
+int main(){
+    
+    struct Node {
+        int data ;
+        Node * link ;
+    };
+    
+    Node * head ;
+    head = NULL ;
+    
+    Node * temp = new Node();
+    
+    temp -> data = 2 ;
+    temp -> link = NULL;
+    
+    head = temp;
+    
+    temp = new Node ();
+    temp -> data = 3;
+    temp -> link = NULL ;
+    
+//    cout << head -> data<< endl;
+//    
+//    cout << temp << endl;
+    
+    
+    while (head -> link != NULL){
+        cout<< head -> data ;
+        head = head -> link;
+        
+    }
+    
+   
+    
     return 0;
+    
 }
-  

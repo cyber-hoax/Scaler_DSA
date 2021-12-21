@@ -38,6 +38,15 @@ void swaps(int &f, int &g){
     g =temp ;
 }
 
+
+//returning an array
+
+//int [] fun(int n){
+//    int *p ;
+//    p
+//}
+
+
 int main(){
     int x,y, z ;
     x = 10;
