@@ -35,6 +35,8 @@ int main(){
     d = new Name() ;
     d -> LastName = "Singh";
     cout<<name.LastName<< endl;
+    
+    
     return 0 ;
 }
 

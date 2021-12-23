@@ -6,6 +6,8 @@
 //
 
 #include <iostream>
+using namespace std ;
+
 
 using  namespace std ;
 
@@ -31,13 +33,13 @@ int main(){
     temp -> link = NULL ;
     
 //    cout << head -> data<< endl;
-//    
+//
 //    cout << temp << endl;
     
     
-    while (head -> link != NULL){
-        cout<< head -> data ;
-        head = head -> link;
+    while (temp -> link != NULL){
+        cout<< temp -> data ;
+        head = temp -> link;
         
     }
     
