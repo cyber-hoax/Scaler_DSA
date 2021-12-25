@@ -50,14 +50,14 @@ int main(){
     int n =  size(A);
     int count = 0 ;
  
-    for(int i = 1 ; i<n; i++){
-        int pre = i , post =i;
-        while(pre >= 0 && post < n){
-            if(A[pre] == p)
-        }
-    }
-    
-    
+//    for(int i = 1 ; i<n; i++){
+//        int pre = i , post =i;
+//        while(pre >= 0 && post < n){
+//            if(A[pre] == p)
+//        }
+//    }
+//    
+//    
     
     return 0 ;
     
