@@ -88,7 +88,7 @@
 using namespace std ;
  
 int main(){
-    int A[] = {1,1,1,1,1};
+    int A[] = {20, 3, 13, 5};
     
     int n = size(A);
 //    int max = *max_element(A , A+n) ;
@@ -98,24 +98,20 @@ int main(){
 //    vector<int> minm ;
 //    vector<int> maxm ;
 //
-//    if(n == 1){
+//    if(n == 1 || n == 0){
 //        result = 1;
 //        return result ;
 //    }
 //    else{
 //    for(int i = 0 ; i< n  ; i++){
 //        if(A[i] == min  ){
-//            minm.push_back(A[i]);
+//            minm.push_back(i);
 //        }
 //        else if(A[i] == max){
-//            maxm.push_back(A[i]);
+//            maxm.push_back(i);
 //
 //        }
 //    }
-//        if(maxm.size() == 0 || minm.size() == 0){
-//            return 1;
-//        }
-//        else{
 //
 ////    for (auto m : minm){
 ////        cout << m << " "  ;
@@ -144,29 +140,32 @@ int main(){
 //    result = abs(minm[0] - maxm[0]) +1 ;
 //
 ////    cout << result ;
-//    }
+//
 //    }
 //    return result ;
-    
+//
+//
     
     int minValue = *min_element(A, A + n);
         int maxValue = *max_element(A, A + n);
-     
+
         int pos_min = -1, pos_max = -1, ans = INT_MAX;
-     
-        
+
+
         for (int i = 0; i < n; i++) {
-     
+
             if (A[i] == minValue)
                 pos_min = i;
-     
+
             if (A[i] == maxValue)
                 pos_max = i;
-     
+
             if (pos_max != -1 and pos_min != -1)
                 ans = min(ans, abs(pos_min - pos_max) + 1);
         }
-     
+
         return ans;
     
 }
+
+
