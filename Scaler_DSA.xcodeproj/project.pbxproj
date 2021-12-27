@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8C3ADAE72774D3AD00A6C99A /* colorfulNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3ADAE62774D3AD00A6C99A /* colorfulNumbers.cpp */; };
 		8C3ADAF42775AE3000A6C99A /* longestPalindromicSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3ADAF32775AE3000A6C99A /* longestPalindromicSubstring.cpp */; };
-		8C3ADAF627764B1500A6C99A /* LargetContinuousSeqZeroSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3ADAF527764B1500A6C99A /* LargetContinuousSeqZeroSum.cpp */; };
 		8C4690B02771094C001B9381 /* func.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4690AF2771094C001B9381 /* func.cpp */; };
 		8C6A591B276A31AB007DDBFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A591A276A31AB007DDBFE /* main.cpp */; };
 		8CB5A5C22778FC1400CD1D90 /* largestNumnber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB5A5C12778FC1400CD1D90 /* largestNumnber.cpp */; };
-		8CB5A5C92779961200CD1D90 /* xorQueries.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB5A5C82779961200CD1D90 /* xorQueries.cpp */; };
+		8CB5A5CB2779B95000CD1D90 /* distinctNumbersWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB5A5CA2779B95000CD1D90 /* distinctNumbersWindow.cpp */; };
+		8CB5A5CD2779DCBE00CD1D90 /* searchSortedMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB5A5CC2779DCBE00CD1D90 /* searchSortedMatrix.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -128,6 +127,8 @@
 		8CB5A5C12778FC1400CD1D90 /* largestNumnber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = largestNumnber.cpp; sourceTree = "<group>"; };
 		8CB5A5C32779025700CD1D90 /* patternPriinting2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = patternPriinting2.cpp; sourceTree = "<group>"; };
 		8CB5A5C82779961200CD1D90 /* xorQueries.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = xorQueries.cpp; sourceTree = "<group>"; };
+		8CB5A5CA2779B95000CD1D90 /* distinctNumbersWindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = distinctNumbersWindow.cpp; sourceTree = "<group>"; };
+		8CB5A5CC2779DCBE00CD1D90 /* searchSortedMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = searchSortedMatrix.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,6 +270,7 @@
 				8CB5A5B42778D94300CD1D90 /* minimumAbsDifference.cpp */,
 				8CB5A5C32779025700CD1D90 /* patternPriinting2.cpp */,
 				8CB5A5C82779961200CD1D90 /* xorQueries.cpp */,
+				8CB5A5CC2779DCBE00CD1D90 /* searchSortedMatrix.cpp */,
 			);
 			path = Arrays;
 			sourceTree = "<group>";
@@ -283,6 +285,7 @@
 				8C3ADAE4277478DB00A6C99A /* checkPalindrome.cpp */,
 				8C3ADAE62774D3AD00A6C99A /* colorfulNumbers.cpp */,
 				8C3ADAF527764B1500A6C99A /* LargetContinuousSeqZeroSum.cpp */,
+				8CB5A5CA2779B95000CD1D90 /* distinctNumbersWindow.cpp */,
 			);
 			path = Hashing;
 			sourceTree = "<group>";
@@ -538,7 +541,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CB5A5C92779961200CD1D90 /* xorQueries.cpp in Sources */,
+				8CB5A5CD2779DCBE00CD1D90 /* searchSortedMatrix.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,8 +549,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C3ADAE72774D3AD00A6C99A /* colorfulNumbers.cpp in Sources */,
-				8C3ADAF627764B1500A6C99A /* LargetContinuousSeqZeroSum.cpp in Sources */,
+				8CB5A5CB2779B95000CD1D90 /* distinctNumbersWindow.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

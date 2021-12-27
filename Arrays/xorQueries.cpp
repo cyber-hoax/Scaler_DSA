@@ -82,6 +82,6 @@ int main(){
     }
     
    
-    
-    return  vect ;
+    //return vect ; 
+    return  0 ;
 }
