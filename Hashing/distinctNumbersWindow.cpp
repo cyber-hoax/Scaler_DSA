@@ -69,43 +69,34 @@ int main() {
     int B = 3 ;
     int n = size(A);
     vector<int> vect ;
+  
+    unordered_map<int,int> hash;
     
-    if(n < B){
-        return 1 ;
+    for(int i = 0 ; i < n-B ; i++){
+        hash[A[i]]++ ;
     }
-    else {
-        int i = 0 ;
-        int j = B;
-        while(i < n-B+1){
-            int count = 0;
-            unordered_map<long long , int > hash ;
-            for(int k = i ; k < j ; k++){
-//                cout << A[k] << " " ;
-                
-                if(hash.find(A[k]) == hash.end()){
-                    hash.insert({A[k] , 1});
-                    count += 1;
-                }
-                else{
-                    if(hash.find(A[k]) != hash.end()){
-                        continue ;
-                       
-                    }
-                }
-//                for(auto m : hash){
-//                    cout << m.first << " " ;
-//                }
-                
-            }
-            vect.push_back(count) ;
-           
-            i++ ;
-            j++  ;
+    
+//    for(auto m : hash){
+//        cout << m.first << " " << m.second << endl;
+   
+    vect.push_back(hash.size()) ;
+    for(int i =1 ; i< n -B ; i++){
+        hash[A[i -1]] -- ;
+        if(hash[A[i -1]] ==  0){
+            hash.erase(A[i -1]) ;
         }
         
+        hash[A[i + B -1]] ++ ;
+        vect.push_back(hash.size());
         
+    }
+   
+
+    for(auto m : vect){
+        cout <<m << endl ;
     }
     
     return 0 ;
+
 }
 

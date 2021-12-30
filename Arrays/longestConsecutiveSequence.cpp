@@ -63,7 +63,7 @@
 
 using namespace std ;
 int main(){
-    int A[] = {100,4,200,1,3,2};
+    int A[] = {100, 4, 200, 1, 3, 2};
     int n = size(A);
     unordered_set<int> unord;
    
@@ -76,10 +76,10 @@ int main(){
     int maxm = 0 ;
    
     for(auto m  : unord){
-        if (unord.find(m -1) != unord.end()){
-            
+        if (unord.find(m -1) == unord.end()){
+          
             int  x = m;
-            int ans = 1 ;
+            int ans = 0 ;
             
            
             while(unord.find(x) != unord.end()){
@@ -87,13 +87,14 @@ int main(){
                 ans ++ ;
                 x++ ;
                
+               
             }
             maxm = max(maxm, ans);
         }
-        
+      
     }
    
     
     cout << maxm ;
-    return 0; ;
+    return 0;
 }
