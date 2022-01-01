@@ -72,7 +72,7 @@ int main() {
   
     unordered_map<int,int> hash;
     
-    for(int i = 0 ; i < n-B ; i++){
+    for(int i = 0 ; i < B ; i++){
         hash[A[i]]++ ;
     }
     
@@ -80,7 +80,7 @@ int main() {
 //        cout << m.first << " " << m.second << endl;
    
     vect.push_back(hash.size()) ;
-    for(int i =1 ; i< n -B ; i++){
+    for(int i =1 ; i<= n -B ; i++){
         hash[A[i -1]] -- ;
         if(hash[A[i -1]] ==  0){
             hash.erase(A[i -1]) ;
