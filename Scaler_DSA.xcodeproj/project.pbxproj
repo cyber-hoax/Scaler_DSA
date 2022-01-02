@@ -10,10 +10,8 @@
 		8C3ADAF42775AE3000A6C99A /* longestPalindromicSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3ADAF32775AE3000A6C99A /* longestPalindromicSubstring.cpp */; };
 		8C4690B02771094C001B9381 /* func.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4690AF2771094C001B9381 /* func.cpp */; };
 		8C6A591B276A31AB007DDBFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A591A276A31AB007DDBFE /* main.cpp */; };
-		8C7BE4B927803EE100B5C33C /* ContainsDuplicate1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4B827803EE100B5C33C /* ContainsDuplicate1.cpp */; };
-		8C7BE4BE2780411900B5C33C /* containDuplicate2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4BD2780411900B5C33C /* containDuplicate2.cpp */; };
-		8C7BE4C02780B9AE00B5C33C /* antiDiagonal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4BF2780B9AE00B5C33C /* antiDiagonal.cpp */; };
-		8CA92952277DFC000014D599 /* kOccurence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA92951277DFC000014D599 /* kOccurence.cpp */; };
+		8C7BE4C12780E79000B5C33C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4B327803EC300B5C33C /* main.cpp */; };
+		8C7BE4C3278183EB00B5C33C /* overLappingRectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4C2278183EA00B5C33C /* overLappingRectangle.cpp */; };
 		8CB5A5C22778FC1400CD1D90 /* largestNumnber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB5A5C12778FC1400CD1D90 /* largestNumnber.cpp */; };
 		8CB5A5CB2779B95000CD1D90 /* distinctNumbersWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB5A5CA2779B95000CD1D90 /* distinctNumbersWindow.cpp */; };
 /* End PBXBuildFile section */
@@ -125,6 +123,7 @@
 		8C7BE4B827803EE100B5C33C /* ContainsDuplicate1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ContainsDuplicate1.cpp; sourceTree = "<group>"; };
 		8C7BE4BD2780411900B5C33C /* containDuplicate2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = containDuplicate2.cpp; sourceTree = "<group>"; };
 		8C7BE4BF2780B9AE00B5C33C /* antiDiagonal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = antiDiagonal.cpp; sourceTree = "<group>"; };
+		8C7BE4C2278183EA00B5C33C /* overLappingRectangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = overLappingRectangle.cpp; sourceTree = "<group>"; };
 		8C9174192776EEEB005448CA /* greatestElmentsOne */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = greatestElmentsOne; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9174242776EF04005448CA /* Arrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Arrays; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9174262776EF04005448CA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -324,6 +323,7 @@
 				8CA9294F277DD11E0014D599 /* shaggyAndDistance.cpp */,
 				8CA92951277DFC000014D599 /* kOccurence.cpp */,
 				8C7BE4BF2780B9AE00B5C33C /* antiDiagonal.cpp */,
+				8C7BE4C2278183EA00B5C33C /* overLappingRectangle.cpp */,
 			);
 			path = Arrays;
 			sourceTree = "<group>";
@@ -608,8 +608,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C7BE4B927803EE100B5C33C /* ContainsDuplicate1.cpp in Sources */,
-				8C7BE4BE2780411900B5C33C /* containDuplicate2.cpp in Sources */,
+				8C7BE4C12780E79000B5C33C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -624,8 +623,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C7BE4C02780B9AE00B5C33C /* antiDiagonal.cpp in Sources */,
-				8CA92952277DFC000014D599 /* kOccurence.cpp in Sources */,
+				8C7BE4C3278183EB00B5C33C /* overLappingRectangle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
