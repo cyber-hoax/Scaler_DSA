@@ -10,8 +10,10 @@
 		8C3ADAF42775AE3000A6C99A /* longestPalindromicSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3ADAF32775AE3000A6C99A /* longestPalindromicSubstring.cpp */; };
 		8C4690B02771094C001B9381 /* func.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4690AF2771094C001B9381 /* func.cpp */; };
 		8C6A591B276A31AB007DDBFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A591A276A31AB007DDBFE /* main.cpp */; };
-		8C7BE4C12780E79000B5C33C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4B327803EC300B5C33C /* main.cpp */; };
 		8C7BE4C3278183EB00B5C33C /* overLappingRectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4C2278183EA00B5C33C /* overLappingRectangle.cpp */; };
+		8C7BE4CB2782169800B5C33C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4CA2782169800B5C33C /* main.cpp */; };
+		8C7BE4D02782CDA500B5C33C /* timeBuySellStock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4CF2782CDA400B5C33C /* timeBuySellStock.cpp */; };
+		8C7BE4DD2783053800B5C33C /* powerFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4DC2783053800B5C33C /* powerFunction.cpp */; };
 		8CB5A5C22778FC1400CD1D90 /* largestNumnber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB5A5C12778FC1400CD1D90 /* largestNumnber.cpp */; };
 		8CB5A5CB2779B95000CD1D90 /* distinctNumbersWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB5A5CA2779B95000CD1D90 /* distinctNumbersWindow.cpp */; };
 /* End PBXBuildFile section */
@@ -54,6 +56,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C7BE4AF27803EC300B5C33C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C7BE4C62782169700B5C33C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C7BE4D32782FFD600B5C33C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -124,6 +144,12 @@
 		8C7BE4BD2780411900B5C33C /* containDuplicate2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = containDuplicate2.cpp; sourceTree = "<group>"; };
 		8C7BE4BF2780B9AE00B5C33C /* antiDiagonal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = antiDiagonal.cpp; sourceTree = "<group>"; };
 		8C7BE4C2278183EA00B5C33C /* overLappingRectangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = overLappingRectangle.cpp; sourceTree = "<group>"; };
+		8C7BE4C82782169700B5C33C /* Trees */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Trees; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7BE4CA2782169800B5C33C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C7BE4CF2782CDA400B5C33C /* timeBuySellStock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = timeBuySellStock.cpp; sourceTree = "<group>"; };
+		8C7BE4D52782FFD600B5C33C /* Recursion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Recursion; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7BE4D72782FFD600B5C33C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C7BE4DC2783053800B5C33C /* powerFunction.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = powerFunction.cpp; sourceTree = "<group>"; };
 		8C9174192776EEEB005448CA /* greatestElmentsOne */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = greatestElmentsOne; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9174242776EF04005448CA /* Arrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Arrays; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9174262776EF04005448CA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -185,6 +211,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C7BE4AE27803EC300B5C33C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C7BE4C52782169700B5C33C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C7BE4D22782FFD600B5C33C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -262,6 +302,8 @@
 				8C9174252776EF04005448CA /* Arrays */,
 				8CB5A5BB2778FBFD00CD1D90 /* Sorting */,
 				8C7BE4B227803EC300B5C33C /* LeetCode */,
+				8C7BE4C92782169800B5C33C /* Trees */,
+				8C7BE4D62782FFD600B5C33C /* Recursion */,
 				8C6A5918276A31AB007DDBFE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -278,6 +320,8 @@
 				8C9174242776EF04005448CA /* Arrays */,
 				8CB5A5BA2778FBFD00CD1D90 /* Sorting */,
 				8C7BE4B127803EC300B5C33C /* LeetCode */,
+				8C7BE4C82782169700B5C33C /* Trees */,
+				8C7BE4D52782FFD600B5C33C /* Recursion */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -296,8 +340,26 @@
 				8C7BE4B327803EC300B5C33C /* main.cpp */,
 				8C7BE4B827803EE100B5C33C /* ContainsDuplicate1.cpp */,
 				8C7BE4BD2780411900B5C33C /* containDuplicate2.cpp */,
+				8C7BE4CF2782CDA400B5C33C /* timeBuySellStock.cpp */,
 			);
 			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		8C7BE4C92782169800B5C33C /* Trees */ = {
+			isa = PBXGroup;
+			children = (
+				8C7BE4CA2782169800B5C33C /* main.cpp */,
+			);
+			path = Trees;
+			sourceTree = "<group>";
+		};
+		8C7BE4D62782FFD600B5C33C /* Recursion */ = {
+			isa = PBXGroup;
+			children = (
+				8C7BE4D72782FFD600B5C33C /* main.cpp */,
+				8C7BE4DC2783053800B5C33C /* powerFunction.cpp */,
+			);
+			path = Recursion;
 			sourceTree = "<group>";
 		};
 		8C9174252776EF04005448CA /* Arrays */ = {
@@ -440,6 +502,40 @@
 			productReference = 8C7BE4B127803EC300B5C33C /* LeetCode */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C7BE4C72782169700B5C33C /* Trees */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C7BE4CC2782169800B5C33C /* Build configuration list for PBXNativeTarget "Trees" */;
+			buildPhases = (
+				8C7BE4C42782169700B5C33C /* Sources */,
+				8C7BE4C52782169700B5C33C /* Frameworks */,
+				8C7BE4C62782169700B5C33C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trees;
+			productName = Trees;
+			productReference = 8C7BE4C82782169700B5C33C /* Trees */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C7BE4D42782FFD600B5C33C /* Recursion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C7BE4D92782FFD600B5C33C /* Build configuration list for PBXNativeTarget "Recursion" */;
+			buildPhases = (
+				8C7BE4D12782FFD600B5C33C /* Sources */,
+				8C7BE4D22782FFD600B5C33C /* Frameworks */,
+				8C7BE4D32782FFD600B5C33C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Recursion;
+			productName = Recursion;
+			productReference = 8C7BE4D52782FFD600B5C33C /* Recursion */;
+			productType = "com.apple.product-type.tool";
+		};
 		8C9174182776EEEB005448CA /* greatestElmentsOne */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C91741F2776EEEB005448CA /* Build configuration list for PBXNativeTarget "greatestElmentsOne" */;
@@ -532,6 +628,12 @@
 					8C7BE4B027803EC300B5C33C = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					8C7BE4C72782169700B5C33C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					8C7BE4D42782FFD600B5C33C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					8C9174182776EEEB005448CA = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -568,6 +670,8 @@
 				8C9174232776EF04005448CA /* Arrays */,
 				8CB5A5B92778FBFD00CD1D90 /* Sorting */,
 				8C7BE4B027803EC300B5C33C /* LeetCode */,
+				8C7BE4C72782169700B5C33C /* Trees */,
+				8C7BE4D42782FFD600B5C33C /* Recursion */,
 			);
 		};
 /* End PBXProject section */
@@ -608,7 +712,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C7BE4C12780E79000B5C33C /* main.cpp in Sources */,
+				8C7BE4D02782CDA500B5C33C /* timeBuySellStock.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C7BE4C42782169700B5C33C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7BE4CB2782169800B5C33C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C7BE4D12782FFD600B5C33C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7BE4DD2783053800B5C33C /* powerFunction.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -859,6 +979,46 @@
 			};
 			name = Release;
 		};
+		8C7BE4CD2782169800B5C33C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 748W2XNRKG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C7BE4CE2782169800B5C33C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 748W2XNRKG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C7BE4DA2782FFD600B5C33C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 748W2XNRKG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C7BE4DB2782FFD600B5C33C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 748W2XNRKG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8C91741D2776EEEB005448CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -994,6 +1154,24 @@
 			buildConfigurations = (
 				8C7BE4B527803EC300B5C33C /* Debug */,
 				8C7BE4B627803EC300B5C33C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C7BE4CC2782169800B5C33C /* Build configuration list for PBXNativeTarget "Trees" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C7BE4CD2782169800B5C33C /* Debug */,
+				8C7BE4CE2782169800B5C33C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C7BE4D92782FFD600B5C33C /* Build configuration list for PBXNativeTarget "Recursion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C7BE4DA2782FFD600B5C33C /* Debug */,
+				8C7BE4DB2782FFD600B5C33C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
