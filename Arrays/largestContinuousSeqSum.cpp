@@ -59,21 +59,43 @@ int main(){
     int n = size(A);
     vector<long long> prefixSum ;
     
-    unordered_map<long long, int > hash;
-    int sum = 0 ;
-    int  star
-    for(int i = 0 ; i < n ; i++ ){
-        sum += A[i] ;
-        
-        if(sum ==0  &&  i)
+    unorderd_map<long long , int > hash ;
+    int sum ;
+    for(int i = 0 ; i < n ; i++){
+        sum += A[i];
+        prefixSum.pushback(sum);
     }
      
+    for(int i =0 ; i <prefixSum.size(); i++){
+        hash[A[i]] ++ ;
+    }
+    
+    
+    int pos ;
+    
+    for(auto m : hash){
+        if(m.second> 0 ){
+            pos = m.first ;
+        }
+    }
+    vector<long long> ans ;
         
-        
-     
-        
-            
-   
+    int flag = false;
+    for(int i = 0 ; i < n ; i++){
+        if(!flag){
+            if(A[i] == pos){
+                flag = true ;
+                continue;
+            }
+        }
+        else{
+            ans.push_back(A[i]);
+        }
+    }
+    
+    for(auto t : ans){
+        cout << t << " "  ;
+    }
     return 0 ;
 }
 
