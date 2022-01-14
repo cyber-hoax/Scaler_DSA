@@ -35,4 +35,42 @@ using namespace std;
 
 int main() {
     
+    int A[3][3] = { {1,2,10}, {2,3,20} , {2,5,25}};
+    int B = 5 ;
+    
+    vector<int> coins(B , 0 );
+    int n  = size(A);
+    for(int i = 0 ; i <n ; i++ ){
+        int start = A[i][0] -1;
+        int end = A[i][1] -1 ;
+        int donation = A[i][2] ;
+        
+        coins[start] += donation ;
+        
+        if(end +1 <B ){
+            coins[end +1 ] -= donation ;
+        }
+    }
+    
+//    for(auto m : coins){
+//        cout << m << " ";
+//    }
+//    cout << endl ;
+    vector <int > t ;
+    int temp = 0  ;
+    for(int i = 0 ; i< B ; i++ ){
+//        coins[i] = coins[i] + coins[i -1];
+//        cout << coins[i-1] << endl;
+//        cout << coins[i] << " " ;
+        temp += coins[i];
+        t.push_back(temp);
+    }
+    
+    
+    for(auto m : t){
+        cout << m << " ";
+    }
+    cout << endl ;
+    
+    return 0;
 }
