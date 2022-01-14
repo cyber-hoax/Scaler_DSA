@@ -60,55 +60,90 @@ using namespace std ;
 
 int main(){
     
-  
-    int leftSum = 0 ;
-    int rightSum = 0 ;
-    
-    
-    
     vector<int> A;
-    A.push_back(1);
-    A.push_back(2);
-    A.push_back(5);
-    A.push_back(-7);
-    A.push_back(2);
-    A.push_back(3);
+    A.push_back(0);
+    A.push_back(0);
+    A.push_back(-1);
+    A.push_back(0);
+//    A.push_back(2);
+//    A.push_back(3);
+//
+    vector<int> ans;
     
+    int startIndex = 0 ;
+    int endIndex = 0;
     
+    int sum = 0 ;
+    int maxSum = 0 ;
     
+    int  i = 0 ;
+    int  j = 0;
+    int n = A.size();
     
+   
     
-    int n = A.size() ;
-    
-    int mid = n/2 ;
-    
+    while(j<n){
+        if(A[j] < 0){
+            
+            sum = 0 ;
+       
+            i = j+1 ;
+            j ++;
+            
+            
 
-    for(int i = 0 ; i < mid ; i++){
-        leftSum += A[i];
-        
-    }
-    
-    if(mid < 0 ){
-    for(int i = mid ; i < n ; i++){
-        rightSum += A[i];
-    }
-    }
-    else{
-        for(int i = mid + 1 ; i < n ; i++){
-            rightSum += A[i];
         }
-    }
-    
-    
-    
-    if(leftSum > rightSum){
-        for(int i = 0 ; i <mid ; i++){
-            if(A[i] < 0  ){
-                int mid = A[i];
+       
+        if(A[j] >= 0 ){
+            sum += A[j];
+           
+            if(sum >= maxSum){
+                maxSum = sum ;
+                startIndex = i ;
+                endIndex =  j ;
+                cout<< i << endl ;
+                cout<< j << endl ;
             }
-        }
+         
+           
+        }j++ ;
+        
+       
     }
- 
+    
+//    while(j < n){
+//        if(A[j] < 1){
+//            sum = 0 ;
+//            j = j+1;
+//            i = j+1;
+//
+//        }
+//        else{
+//            sum += A[j];
+//            if(sum > maxSum){
+//                maxSum = sum ;
+//                startIndex = i ;
+//                endIndex =  j ;
+//                j++ ;
+//            }els{
+                
+//
+//        }
+//
+//    }
+    
+    
+    cout<< startIndex << endl ;
+    cout << endIndex  << endl;
+    int t = 7 ;
+   if(startIndex == endIndex) return t ;
+    for(int i = startIndex ; i <=endIndex ; i++ ){
+        cout << A[i] << " " ;
+    }
+
+    return 0;
+    
+   
 }
 
 

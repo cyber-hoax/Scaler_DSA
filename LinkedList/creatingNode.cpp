@@ -52,9 +52,9 @@ int main(){
     int count  = 0;
     while (head ) {
         count ++ ;
-        cout << head-> value << endl ;
+        cout << head-> value << "->" ;
         head = head -> next ;
     }
-    cout << count ;
+    cout<< endl;
     return 0 ;
 }

@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8C389991278B2C7C00152CA7 /* pickFromBothSIde.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C389990278B2C7C00152CA7 /* pickFromBothSIde.cpp */; };
+		8C15AAE2278EC9F60037089D /* linked.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C15AAE0278EC9F60037089D /* linked.cpp */; };
+		8C15AAE3278EDB900037089D /* creatingNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C42E4972770DC3400D2D841 /* creatingNode.cpp */; };
+		8C2EC671279155240088E804 /* equilibriumIndexofArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2EC670279155240088E804 /* equilibriumIndexofArray.cpp */; };
+		8C2EC673279161ED0088E804 /* beggarsOutsideTemple.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2EC672279161ED0088E804 /* beggarsOutsideTemple.cpp */; };
 		8C389992278BFF0D00152CA7 /* LargetContinuousSeqZeroSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3ADAF527764B1500A6C99A /* LargetContinuousSeqZeroSum.cpp */; };
 		8C3ADAF42775AE3000A6C99A /* longestPalindromicSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3ADAF32775AE3000A6C99A /* longestPalindromicSubstring.cpp */; };
 		8C6A591B276A31AB007DDBFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A591A276A31AB007DDBFE /* main.cpp */; };
@@ -15,7 +18,6 @@
 		8C7BE4D02782CDA500B5C33C /* timeBuySellStock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4CF2782CDA400B5C33C /* timeBuySellStock.cpp */; };
 		8C7BE4DD2783053800B5C33C /* powerFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4DC2783053800B5C33C /* powerFunction.cpp */; };
 		8C7BE4EA2783CA6A00B5C33C /* minStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4E92783CA6A00B5C33C /* minStack.cpp */; };
-		8C7BE4EC2783CB2A00B5C33C /* stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4EB2783CB2A00B5C33C /* stack.cpp */; };
 		8C7BE4EE2784118800B5C33C /* rowColumnZero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4ED2784118800B5C33C /* rowColumnZero.cpp */; };
 		8C7BE4F027846BC900B5C33C /* balancedParanthesis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4EF27846BC900B5C33C /* balancedParanthesis.cpp */; };
 		8CB5A5C22778FC1400CD1D90 /* largestNumnber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB5A5C12778FC1400CD1D90 /* largestNumnber.cpp */; };
@@ -143,6 +145,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8C15AAE0278EC9F60037089D /* linked.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = linked.cpp; sourceTree = "<group>"; };
+		8C15AAE1278EC9F60037089D /* linked.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = linked.hpp; sourceTree = "<group>"; };
+		8C2EC670279155240088E804 /* equilibriumIndexofArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = equilibriumIndexofArray.cpp; sourceTree = "<group>"; };
+		8C2EC672279161ED0088E804 /* beggarsOutsideTemple.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = beggarsOutsideTemple.cpp; sourceTree = "<group>"; };
 		8C38998E2789A47900152CA7 /* maxNonNegativeSubArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = maxNonNegativeSubArray.cpp; sourceTree = "<group>"; };
 		8C389990278B2C7C00152CA7 /* pickFromBothSIde.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pickFromBothSIde.cpp; sourceTree = "<group>"; };
 		8C3ADAE4277478DB00A6C99A /* checkPalindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = checkPalindrome.cpp; sourceTree = "<group>"; };
@@ -336,6 +342,8 @@
 				8C4690AC2770F84C001B9381 /* pointers.cpp */,
 				8C4690AF2771094C001B9381 /* func.cpp */,
 				8C7BE4EB2783CB2A00B5C33C /* stack.cpp */,
+				8C15AAE0278EC9F60037089D /* linked.cpp */,
+				8C15AAE1278EC9F60037089D /* linked.hpp */,
 			);
 			path = LearningTheLang;
 			sourceTree = "<group>";
@@ -461,6 +469,8 @@
 				8C95091827882C9E000EBE2E /* firstMisisngInteger.cpp */,
 				8C38998E2789A47900152CA7 /* maxNonNegativeSubArray.cpp */,
 				8C389990278B2C7C00152CA7 /* pickFromBothSIde.cpp */,
+				8C2EC670279155240088E804 /* equilibriumIndexofArray.cpp */,
+				8C2EC672279161ED0088E804 /* beggarsOutsideTemple.cpp */,
 			);
 			path = AdvancedArray;
 			sourceTree = "<group>";
@@ -807,6 +817,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C15AAE3278EDB900037089D /* creatingNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -814,7 +825,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C7BE4EC2783CB2A00B5C33C /* stack.cpp in Sources */,
+				8C15AAE2278EC9F60037089D /* linked.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -878,7 +889,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C389991278B2C7C00152CA7 /* pickFromBothSIde.cpp in Sources */,
+				8C2EC673279161ED0088E804 /* beggarsOutsideTemple.cpp in Sources */,
+				8C2EC671279155240088E804 /* equilibriumIndexofArray.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

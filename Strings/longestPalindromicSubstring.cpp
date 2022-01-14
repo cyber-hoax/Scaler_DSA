@@ -43,23 +43,57 @@
 
 #include <stdio.h>
 #include <iostream>
+#include <unordered_map>
 
 using namespace std ;
 int main(){
-    string A = "aaaabaaa";
-    int n =  size(A);
-    int count = 0 ;
- 
-//    for(int i = 1 ; i<n; i++){
-//        int pre = i , post =i;
-//        while(pre >= 0 && post < n){
-//            if(A[pre] == p)
-//        }
-//    }
-//    
-//    
+    string A = "abcdedc";
+    int n = size(A);
     
+    unordered_map<char, int> hash;
+    
+    for (int i = 0 ; i<n; i++) {
+        hash[A[i]] ++ ;
+    }
+    
+    int frq  = 1 ;
+    for(auto m : hash){
+        if (m.second > 1) {
+            frq += 1;
+        break ;
+        }
+            
+        
+    
+    }
+    if(frq <=1) return A[0];
+        
+    int halfString  = n/2 ;
+    int leftSide = INT_MAX;
+    int rigtside = INT_MIN ;
+    int leftcount = 0 ;
+    int rightcount = 0 ;
+    for(int i = halfString -1 ; i>=1  ; i --){
+        if(A[i-1] == A[i+1]){
+            leftcount ++ ;
+            leftSide = min(halfString, i-1) ;
+        }
+            
+    }
+    for(int i = halfString-1 ; i<n-1  ; i ++){
+        if(A[i-1] == A[i+1]){
+            rightcount ++ ;
+            rigtside = min(halfString, i) ;
+        }
+            
+    }
+        
+    if(rightcount < leftcount){
+        string B ;
+        for(int i = )
+    }
+  
+
     return 0 ;
-    
     
 }
