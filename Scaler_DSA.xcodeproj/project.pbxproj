@@ -13,7 +13,6 @@
 		8C2EC6772792AB0F0088E804 /* longestCommonPrefix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2EC6762792AB0F0088E804 /* longestCommonPrefix.cpp */; };
 		8C389992278BFF0D00152CA7 /* LargetContinuousSeqZeroSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3ADAF527764B1500A6C99A /* LargetContinuousSeqZeroSum.cpp */; };
 		8C6A591B276A31AB007DDBFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A591A276A31AB007DDBFE /* main.cpp */; };
-		8C7BE4CB2782169800B5C33C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4CA2782169800B5C33C /* main.cpp */; };
 		8C7BE4D02782CDA500B5C33C /* timeBuySellStock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4CF2782CDA400B5C33C /* timeBuySellStock.cpp */; };
 		8C7BE4DD2783053800B5C33C /* powerFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4DC2783053800B5C33C /* powerFunction.cpp */; };
 		8C7BE4EA2783CA6A00B5C33C /* minStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4E92783CA6A00B5C33C /* minStack.cpp */; };
@@ -855,7 +854,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C7BE4CB2782169800B5C33C /* main.cpp in Sources */,
 				8CC3F66E2793FEFF0003D18F /* createTree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

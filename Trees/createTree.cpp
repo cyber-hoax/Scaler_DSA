@@ -6,5 +6,49 @@
 //
 
 
-/
+// how to create the tree
+
+
 #include <stdio.h>
+#include <iostream>
+
+using namespace std ;
+
+struct Node {
+    int data ;               // creating data value
+    Node* left;              //create left node or edges
+    Node* right;            // create right ndoe or edges
+    
+    Node(int value){
+        data = value ;
+        left = NULL ;                       //initialising the left and right child null
+        right = NULL ;
+    }
+};
+
+void Inorder(Node* root){
+    if(root != NULL){
+        Inorder(root -> left);
+    
+    cout <<  root->data << " -> " ;
+    
+    Inorder(root -> right) ;
+}
+}
+
+
+
+int main(){
+    Node* root = new Node(8);
+    
+    root -> left = new Node(3);
+    root -> right = new Node(10);
+    
+    
+    cout << "inorder traversal: " ;
+    Inorder(root) ;
+    
+    return 0 ; 
+}
+
+
