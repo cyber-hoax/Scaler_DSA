@@ -13,14 +13,15 @@
 		8C2EC6772792AB0F0088E804 /* longestCommonPrefix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2EC6762792AB0F0088E804 /* longestCommonPrefix.cpp */; };
 		8C389992278BFF0D00152CA7 /* LargetContinuousSeqZeroSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3ADAF527764B1500A6C99A /* LargetContinuousSeqZeroSum.cpp */; };
 		8C6A591B276A31AB007DDBFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A591A276A31AB007DDBFE /* main.cpp */; };
-		8C7BE4D02782CDA500B5C33C /* timeBuySellStock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4CF2782CDA400B5C33C /* timeBuySellStock.cpp */; };
 		8C7BE4DD2783053800B5C33C /* powerFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4DC2783053800B5C33C /* powerFunction.cpp */; };
 		8C7BE4EA2783CA6A00B5C33C /* minStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4E92783CA6A00B5C33C /* minStack.cpp */; };
 		8C7BE4EE2784118800B5C33C /* rowColumnZero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4ED2784118800B5C33C /* rowColumnZero.cpp */; };
 		8C7BE4F027846BC900B5C33C /* balancedParanthesis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4EF27846BC900B5C33C /* balancedParanthesis.cpp */; };
 		8CB5A5C22778FC1400CD1D90 /* largestNumnber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB5A5C12778FC1400CD1D90 /* largestNumnber.cpp */; };
 		8CB5A5CB2779B95000CD1D90 /* distinctNumbersWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB5A5CA2779B95000CD1D90 /* distinctNumbersWindow.cpp */; };
+		8CBD035227973AEE00BC5760 /* Smallest_Subarray_With_a_Given_Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CBD035127973AEE00BC5760 /* Smallest_Subarray_With_a_Given_Sum.cpp */; };
 		8CC3F66E2793FEFF0003D18F /* createTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC3F66D2793FEFF0003D18F /* createTree.cpp */; };
+		8CC3F670279463730003D18F /* twoSum2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC3F66F279463730003D18F /* twoSum2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -141,6 +142,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CC3F67E2794B6330003D18F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -220,7 +230,12 @@
 		8CB5A5D0277A158E00CD1D90 /* lengthLonogestConsecutiveOnes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lengthLonogestConsecutiveOnes.cpp; sourceTree = "<group>"; };
 		8CB5A5D2277A35E500CD1D90 /* rotateMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rotateMatrix.cpp; sourceTree = "<group>"; };
 		8CB5A5D4277A449F00CD1D90 /* PatternPrinting2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PatternPrinting2.cpp; sourceTree = "<group>"; };
+		8CBD035127973AEE00BC5760 /* Smallest_Subarray_With_a_Given_Sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Smallest_Subarray_With_a_Given_Sum.cpp; sourceTree = "<group>"; };
 		8CC3F66D2793FEFF0003D18F /* createTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = createTree.cpp; sourceTree = "<group>"; };
+		8CC3F66F279463730003D18F /* twoSum2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = twoSum2.cpp; sourceTree = "<group>"; };
+		8CC3F6802794B6330003D18F /* TwoPointers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TwoPointers; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC3F6822794B6330003D18F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CC3F6872794B7470003D18F /* TwoSum2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TwoSum2.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -315,6 +330,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CC3F67D2794B6330003D18F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -366,6 +388,7 @@
 				8C7BE4D62782FFD600B5C33C /* Recursion */,
 				8C7BE4E32783CA4600B5C33C /* Stack */,
 				8C95091227882C65000EBE2E /* AdvancedArray */,
+				8CC3F6812794B6330003D18F /* TwoPointers */,
 				8C6A5918276A31AB007DDBFE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -386,6 +409,7 @@
 				8C7BE4D52782FFD600B5C33C /* Recursion */,
 				8C7BE4E22783CA4600B5C33C /* Stack */,
 				8C95091127882C65000EBE2E /* AdvancedArray */,
+				8CC3F6802794B6330003D18F /* TwoPointers */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -405,6 +429,7 @@
 				8C7BE4B827803EE100B5C33C /* ContainsDuplicate1.cpp */,
 				8C7BE4BD2780411900B5C33C /* containDuplicate2.cpp */,
 				8C7BE4CF2782CDA400B5C33C /* timeBuySellStock.cpp */,
+				8CC3F66F279463730003D18F /* twoSum2.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -503,6 +528,16 @@
 				8CB5A5C12778FC1400CD1D90 /* largestNumnber.cpp */,
 			);
 			path = Sorting;
+			sourceTree = "<group>";
+		};
+		8CC3F6812794B6330003D18F /* TwoPointers */ = {
+			isa = PBXGroup;
+			children = (
+				8CC3F6822794B6330003D18F /* main.cpp */,
+				8CC3F6872794B7470003D18F /* TwoSum2.cpp */,
+				8CBD035127973AEE00BC5760 /* Smallest_Subarray_With_a_Given_Sum.cpp */,
+			);
+			path = TwoPointers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -729,6 +764,23 @@
 			productReference = 8CB5A5BA2778FBFD00CD1D90 /* Sorting */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CC3F67F2794B6330003D18F /* TwoPointers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC3F6842794B6330003D18F /* Build configuration list for PBXNativeTarget "TwoPointers" */;
+			buildPhases = (
+				8CC3F67C2794B6330003D18F /* Sources */,
+				8CC3F67D2794B6330003D18F /* Frameworks */,
+				8CC3F67E2794B6330003D18F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoPointers;
+			productName = TwoPointers;
+			productReference = 8CC3F6802794B6330003D18F /* TwoPointers */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -736,6 +788,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					8C3ADAEB2775AA8600A6C99A = {
@@ -777,6 +830,9 @@
 					8CB5A5B92778FBFD00CD1D90 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					8CC3F67F2794B6330003D18F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 8C6A5912276A31AB007DDBFE /* Build configuration list for PBXProject "Scaler_DSA" */;
@@ -805,6 +861,7 @@
 				8C7BE4D42782FFD600B5C33C /* Recursion */,
 				8C7BE4E12783CA4600B5C33C /* Stack */,
 				8C95091027882C65000EBE2E /* AdvancedArray */,
+				8CC3F67F2794B6330003D18F /* TwoPointers */,
 			);
 		};
 /* End PBXProject section */
@@ -846,7 +903,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C7BE4D02782CDA500B5C33C /* timeBuySellStock.cpp in Sources */,
+				8CC3F670279463730003D18F /* twoSum2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -912,6 +969,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CB5A5C22778FC1400CD1D90 /* largestNumnber.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC3F67C2794B6330003D18F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBD035227973AEE00BC5760 /* Smallest_Subarray_With_a_Given_Sum.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1295,6 +1360,28 @@
 			};
 			name = Release;
 		};
+		8CC3F6852794B6330003D18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 748W2XNRKG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CC3F6862794B6330003D18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 748W2XNRKG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1420,6 +1507,15 @@
 			buildConfigurations = (
 				8CB5A5BF2778FBFD00CD1D90 /* Debug */,
 				8CB5A5C02778FBFD00CD1D90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC3F6842794B6330003D18F /* Build configuration list for PBXNativeTarget "TwoPointers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC3F6852794B6330003D18F /* Debug */,
+				8CC3F6862794B6330003D18F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
