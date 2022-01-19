@@ -28,26 +28,36 @@ struct Node {
 
 void Inorder(Node* root){
     if(root != NULL){
-        Inorder(root -> left);
+        Inorder(root -> right);
     
     cout <<  root->data << " -> " ;
     
-    Inorder(root -> right) ;
+    Inorder(root -> left) ;
 }
 }
 
 
 
 int main(){
-    Node* root = new Node(8);
+    Node* root = new Node(1);
     
-    root -> left = new Node(3);
-    root -> right = new Node(10);
+    root -> left = new Node(2);
+    root -> right = new Node(3);
+    root -> left -> left = new Node(4);
+    root -> left -> right = new Node(5);
+    root -> right -> left = new Node(6);
+    root -> right -> right = new Node(7);
     
+    
+    
+
     
     cout << "inorder traversal: " ;
     Inorder(root) ;
     
+
+    
+
     return 0 ; 
 }
 
