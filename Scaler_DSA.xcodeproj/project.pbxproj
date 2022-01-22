@@ -22,8 +22,8 @@
 		8CBD035227973AEE00BC5760 /* Smallest_Subarray_With_a_Given_Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CBD035127973AEE00BC5760 /* Smallest_Subarray_With_a_Given_Sum.cpp */; };
 		8CC3F670279463730003D18F /* twoSum2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC3F66F279463730003D18F /* twoSum2.cpp */; };
 		8CC7BF762797FA08003A3331 /* wayTooLongWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC7BF752797FA08003A3331 /* wayTooLongWords.cpp */; };
-		8CFFD3F2279AA58400E25C2E /* AmoduloB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CFFD3F1279AA58400E25C2E /* AmoduloB.cpp */; };
 		8CFFD3F4279AC1E500E25C2E /* SymmetricalTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CFFD3F3279AC1E500E25C2E /* SymmetricalTree.cpp */; };
+		8CFFD3F6279B1E2500E25C2E /* pairSumDivisibleBYM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CFFD3F5279B1E2500E25C2E /* pairSumDivisibleBYM.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -264,6 +264,7 @@
 		8CFFD3EC279AA56A00E25C2E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CFFD3F1279AA58400E25C2E /* AmoduloB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AmoduloB.cpp; sourceTree = "<group>"; };
 		8CFFD3F3279AC1E500E25C2E /* SymmetricalTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SymmetricalTree.cpp; sourceTree = "<group>"; };
+		8CFFD3F5279B1E2500E25C2E /* pairSumDivisibleBYM.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pairSumDivisibleBYM.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -602,6 +603,7 @@
 			children = (
 				8CFFD3EC279AA56A00E25C2E /* main.cpp */,
 				8CFFD3F1279AA58400E25C2E /* AmoduloB.cpp */,
+				8CFFD3F5279B1E2500E25C2E /* pairSumDivisibleBYM.cpp */,
 			);
 			path = Maths;
 			sourceTree = "<group>";
@@ -1100,7 +1102,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CFFD3F2279AA58400E25C2E /* AmoduloB.cpp in Sources */,
+				8CFFD3F6279B1E2500E25C2E /* pairSumDivisibleBYM.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

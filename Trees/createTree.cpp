@@ -28,11 +28,11 @@ struct Node {
 
 void Inorder(Node* root){
     if(root != NULL){
-        Inorder(root -> right);
+        Inorder(root -> left);
     
     cout <<  root->data << " -> " ;
     
-    Inorder(root -> left) ;
+    Inorder(root -> right) ;
 }
 }
 
