@@ -93,6 +93,5 @@ int main(){
     
  
     
-    return isSymmetry(A->left , A->right);
     
 }

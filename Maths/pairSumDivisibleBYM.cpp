@@ -67,14 +67,38 @@
 using namespace std;
 
 int main(){
-    int A[] = {1,2,3,4,5};
-    int m = 2;
+    int A[] = { 5, 17, 100, 11 };
+    int B = 28;
+    
+    
+    // create a hashtable to create a mod ans as key and counts as frequency
     unordered_map<int, int> hash;
     int n = size(A);
     for(int i = 0 ; i <n ; i++ ){
-        hash[A[i] % m] ++ ;
+        hash[A[i] % B] ++ ;
+    }
+    int mod= 1000000007;
+    
+    //this is 0 remainder with NCr2
+    int count  = hash[0] * (hash[0] -1)  /2 % mod ;
+    
+    int i = 1 ;
+    int j = B-1 ;
+    
+    // now chjeck the condtion uif i + j remainder eual to mod value
+    while(i<j){
+        if(i+j ==B)
+        count = count +  hash[i] * hash[j]  % mod;
+        i++ ;
+        j-- ;
     }
     
-    for()
+    
+  
+    if(B%2 == 0){
+        count += hash[B/2] * (hash[B/2]-1) /2  % mod;
+    }
+   
+    cout << count %mod;
 }
 
