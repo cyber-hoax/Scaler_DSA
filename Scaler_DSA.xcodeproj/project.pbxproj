@@ -14,16 +14,15 @@
 		8C389992278BFF0D00152CA7 /* LargetContinuousSeqZeroSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3ADAF527764B1500A6C99A /* LargetContinuousSeqZeroSum.cpp */; };
 		8C6A591B276A31AB007DDBFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A591A276A31AB007DDBFE /* main.cpp */; };
 		8C771F7A279BF88A009FE7CE /* nodeCount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C771F79279BF88A009FE7CE /* nodeCount.cpp */; };
+		8C771F7C279D4F90009FE7CE /* inverseModulo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C771F7B279D4F90009FE7CE /* inverseModulo.cpp */; };
+		8C771F7E279DB279009FE7CE /* isDictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C771F7D279DB279009FE7CE /* isDictionary.cpp */; };
 		8C7BE4DD2783053800B5C33C /* powerFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4DC2783053800B5C33C /* powerFunction.cpp */; };
 		8C7BE4EA2783CA6A00B5C33C /* minStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4E92783CA6A00B5C33C /* minStack.cpp */; };
-		8C7BE4EE2784118800B5C33C /* rowColumnZero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4ED2784118800B5C33C /* rowColumnZero.cpp */; };
 		8C7BE4F027846BC900B5C33C /* balancedParanthesis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4EF27846BC900B5C33C /* balancedParanthesis.cpp */; };
 		8CB5A5C22778FC1400CD1D90 /* largestNumnber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB5A5C12778FC1400CD1D90 /* largestNumnber.cpp */; };
-		8CB5A5CB2779B95000CD1D90 /* distinctNumbersWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB5A5CA2779B95000CD1D90 /* distinctNumbersWindow.cpp */; };
 		8CBD035227973AEE00BC5760 /* Smallest_Subarray_With_a_Given_Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CBD035127973AEE00BC5760 /* Smallest_Subarray_With_a_Given_Sum.cpp */; };
 		8CC3F670279463730003D18F /* twoSum2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC3F66F279463730003D18F /* twoSum2.cpp */; };
 		8CC7BF762797FA08003A3331 /* wayTooLongWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC7BF752797FA08003A3331 /* wayTooLongWords.cpp */; };
-		8CFFD3F6279B1E2500E25C2E /* pairSumDivisibleBYM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CFFD3F5279B1E2500E25C2E /* pairSumDivisibleBYM.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -201,6 +200,8 @@
 		8C6A591A276A31AB007DDBFE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C73C99B276E5C6400C3A4DC /* SumOfPairK.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SumOfPairK.cpp; sourceTree = "<group>"; };
 		8C771F79279BF88A009FE7CE /* nodeCount.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = nodeCount.cpp; sourceTree = "<group>"; };
+		8C771F7B279D4F90009FE7CE /* inverseModulo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = inverseModulo.cpp; sourceTree = "<group>"; };
+		8C771F7D279DB279009FE7CE /* isDictionary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = isDictionary.cpp; sourceTree = "<group>"; };
 		8C7BE4B127803EC300B5C33C /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C7BE4B327803EC300B5C33C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C7BE4B827803EE100B5C33C /* ContainsDuplicate1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ContainsDuplicate1.cpp; sourceTree = "<group>"; };
@@ -568,6 +569,7 @@
 				8C3ADAF527764B1500A6C99A /* LargetContinuousSeqZeroSum.cpp */,
 				8CB5A5CA2779B95000CD1D90 /* distinctNumbersWindow.cpp */,
 				8C7BE4ED2784118800B5C33C /* rowColumnZero.cpp */,
+				8C771F7D279DB279009FE7CE /* isDictionary.cpp */,
 			);
 			path = Hashing;
 			sourceTree = "<group>";
@@ -606,6 +608,7 @@
 				8CFFD3EC279AA56A00E25C2E /* main.cpp */,
 				8CFFD3F1279AA58400E25C2E /* AmoduloB.cpp */,
 				8CFFD3F5279B1E2500E25C2E /* pairSumDivisibleBYM.cpp */,
+				8C771F7B279D4F90009FE7CE /* inverseModulo.cpp */,
 			);
 			path = Maths;
 			sourceTree = "<group>";
@@ -1071,8 +1074,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C7BE4EE2784118800B5C33C /* rowColumnZero.cpp in Sources */,
-				8CB5A5CB2779B95000CD1D90 /* distinctNumbersWindow.cpp in Sources */,
+				8C771F7E279DB279009FE7CE /* isDictionary.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1104,7 +1106,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CFFD3F6279B1E2500E25C2E /* pairSumDivisibleBYM.cpp in Sources */,
+				8C771F7C279D4F90009FE7CE /* inverseModulo.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
