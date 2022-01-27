@@ -16,7 +16,7 @@
 		8C771F7A279BF88A009FE7CE /* nodeCount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C771F79279BF88A009FE7CE /* nodeCount.cpp */; };
 		8C771F7C279D4F90009FE7CE /* inverseModulo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C771F7B279D4F90009FE7CE /* inverseModulo.cpp */; };
 		8C771F7E279DB279009FE7CE /* isDictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C771F7D279DB279009FE7CE /* isDictionary.cpp */; };
-		8C7BE4DD2783053800B5C33C /* powerFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4DC2783053800B5C33C /* powerFunction.cpp */; };
+		8C771F80279FDCEE009FE7CE /* checkPalindrom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C771F7F279FDCEE009FE7CE /* checkPalindrom.cpp */; };
 		8C7BE4EA2783CA6A00B5C33C /* minStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4E92783CA6A00B5C33C /* minStack.cpp */; };
 		8C7BE4F027846BC900B5C33C /* balancedParanthesis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4EF27846BC900B5C33C /* balancedParanthesis.cpp */; };
 		8CB5A5C22778FC1400CD1D90 /* largestNumnber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB5A5C12778FC1400CD1D90 /* largestNumnber.cpp */; };
@@ -202,6 +202,7 @@
 		8C771F79279BF88A009FE7CE /* nodeCount.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = nodeCount.cpp; sourceTree = "<group>"; };
 		8C771F7B279D4F90009FE7CE /* inverseModulo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = inverseModulo.cpp; sourceTree = "<group>"; };
 		8C771F7D279DB279009FE7CE /* isDictionary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = isDictionary.cpp; sourceTree = "<group>"; };
+		8C771F7F279FDCEE009FE7CE /* checkPalindrom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = checkPalindrom.cpp; sourceTree = "<group>"; };
 		8C7BE4B127803EC300B5C33C /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C7BE4B327803EC300B5C33C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C7BE4B827803EE100B5C33C /* ContainsDuplicate1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ContainsDuplicate1.cpp; sourceTree = "<group>"; };
@@ -500,6 +501,7 @@
 			children = (
 				8C7BE4D72782FFD600B5C33C /* main.cpp */,
 				8C7BE4DC2783053800B5C33C /* powerFunction.cpp */,
+				8C771F7F279FDCEE009FE7CE /* checkPalindrom.cpp */,
 			);
 			path = Recursion;
 			sourceTree = "<group>";
@@ -1034,7 +1036,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C7BE4DD2783053800B5C33C /* powerFunction.cpp in Sources */,
+				8C771F80279FDCEE009FE7CE /* checkPalindrom.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
