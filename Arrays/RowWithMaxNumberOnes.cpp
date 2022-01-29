@@ -76,12 +76,12 @@ int main(){
     int n = size(A);
     int j = size(A[0]) -1;
     int i = 0 ;
-    int minm  = INT_MAX ;
+   
     int res = 0 ;
     
     while(i < n && j>=0){
         if(A[i][j] == 1){
-            minm = min(minm, i);
+           
             
             res = i ;
            
