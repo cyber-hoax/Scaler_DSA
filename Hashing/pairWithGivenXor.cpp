@@ -81,13 +81,13 @@ int main(){
     int n = size(A);
     int count = 0 ;
     
-//    int a  = 15;
-//    int b = 5 ;
-//    int c = a ^ b ;
-//    cout << c << endl ;
+    int a  = 25;
+    int b = 3 ;
+    int c = a ^ b ;
+    cout << c << endl ;
     
     unordered_map<int, int> hash;
-    
+
     for(int i = 0 ; i < n ; i++ ){
         if(hash.find(A[i] ^ B) != hash.end())
             count ++ ;

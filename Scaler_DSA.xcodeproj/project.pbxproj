@@ -10,9 +10,9 @@
 		8C07D2D527A25FE7003F9F28 /* GreatestCommonDiivisor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C07D2D427A25FE7003F9F28 /* GreatestCommonDiivisor.cpp */; };
 		8C07D2D727A266C2003F9F28 /* findGreatestCommonDivisorofArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C07D2D627A266C2003F9F28 /* findGreatestCommonDivisorofArray.cpp */; };
 		8C14E89727A5450600F93D29 /* pairWithGivenXor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C14E89627A5450600F93D29 /* pairWithGivenXor.cpp */; };
+		8C14E89927A55A2500F93D29 /* RowwithMaxNumberOfOnes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C14E89827A55A2500F93D29 /* RowwithMaxNumberOfOnes.cpp */; };
 		8C15AAE2278EC9F60037089D /* linked.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C15AAE0278EC9F60037089D /* linked.cpp */; };
 		8C15AAE3278EDB900037089D /* creatingNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C42E4972770DC3400D2D841 /* creatingNode.cpp */; };
-		8C2EC6752791E8030088E804 /* maxDistance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2EC6742791E8030088E804 /* maxDistance.cpp */; };
 		8C2EC6772792AB0F0088E804 /* longestCommonPrefix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2EC6762792AB0F0088E804 /* longestCommonPrefix.cpp */; };
 		8C389992278BFF0D00152CA7 /* LargetContinuousSeqZeroSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3ADAF527764B1500A6C99A /* LargetContinuousSeqZeroSum.cpp */; };
 		8C6A591B276A31AB007DDBFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A591A276A31AB007DDBFE /* main.cpp */; };
@@ -177,6 +177,7 @@
 		8C07D2D427A25FE7003F9F28 /* GreatestCommonDiivisor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GreatestCommonDiivisor.cpp; sourceTree = "<group>"; };
 		8C07D2D627A266C2003F9F28 /* findGreatestCommonDivisorofArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = findGreatestCommonDivisorofArray.cpp; sourceTree = "<group>"; };
 		8C14E89627A5450600F93D29 /* pairWithGivenXor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pairWithGivenXor.cpp; sourceTree = "<group>"; };
+		8C14E89827A55A2500F93D29 /* RowwithMaxNumberOfOnes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RowwithMaxNumberOfOnes.cpp; sourceTree = "<group>"; };
 		8C15AAE0278EC9F60037089D /* linked.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = linked.cpp; sourceTree = "<group>"; };
 		8C15AAE1278EC9F60037089D /* linked.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = linked.hpp; sourceTree = "<group>"; };
 		8C2EC670279155240088E804 /* equilibriumIndexofArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = equilibriumIndexofArray.cpp; sourceTree = "<group>"; };
@@ -560,6 +561,7 @@
 				8C2EC670279155240088E804 /* equilibriumIndexofArray.cpp */,
 				8C2EC672279161ED0088E804 /* beggarsOutsideTemple.cpp */,
 				8C2EC6742791E8030088E804 /* maxDistance.cpp */,
+				8C14E89827A55A2500F93D29 /* RowwithMaxNumberOfOnes.cpp */,
 			);
 			path = AdvancedArray;
 			sourceTree = "<group>";
@@ -1076,7 +1078,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C2EC6752791E8030088E804 /* maxDistance.cpp in Sources */,
+				8C14E89927A55A2500F93D29 /* RowwithMaxNumberOfOnes.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
