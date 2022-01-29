@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8C07D2D527A25FE7003F9F28 /* GreatestCommonDiivisor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C07D2D427A25FE7003F9F28 /* GreatestCommonDiivisor.cpp */; };
+		8C07D2D727A266C2003F9F28 /* findGreatestCommonDivisorofArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C07D2D627A266C2003F9F28 /* findGreatestCommonDivisorofArray.cpp */; };
 		8C15AAE2278EC9F60037089D /* linked.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C15AAE0278EC9F60037089D /* linked.cpp */; };
 		8C15AAE3278EDB900037089D /* creatingNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C42E4972770DC3400D2D841 /* creatingNode.cpp */; };
 		8C2EC6752791E8030088E804 /* maxDistance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2EC6742791E8030088E804 /* maxDistance.cpp */; };
@@ -174,6 +175,7 @@
 
 /* Begin PBXFileReference section */
 		8C07D2D427A25FE7003F9F28 /* GreatestCommonDiivisor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GreatestCommonDiivisor.cpp; sourceTree = "<group>"; };
+		8C07D2D627A266C2003F9F28 /* findGreatestCommonDivisorofArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = findGreatestCommonDivisorofArray.cpp; sourceTree = "<group>"; };
 		8C15AAE0278EC9F60037089D /* linked.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = linked.cpp; sourceTree = "<group>"; };
 		8C15AAE1278EC9F60037089D /* linked.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = linked.hpp; sourceTree = "<group>"; };
 		8C2EC670279155240088E804 /* equilibriumIndexofArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = equilibriumIndexofArray.cpp; sourceTree = "<group>"; };
@@ -481,6 +483,7 @@
 				8C7BE4BD2780411900B5C33C /* containDuplicate2.cpp */,
 				8C7BE4CF2782CDA400B5C33C /* timeBuySellStock.cpp */,
 				8CC3F66F279463730003D18F /* twoSum2.cpp */,
+				8C07D2D627A266C2003F9F28 /* findGreatestCommonDivisorofArray.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -1022,6 +1025,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C07D2D727A266C2003F9F28 /* findGreatestCommonDivisorofArray.cpp in Sources */,
 				8CC3F670279463730003D18F /* twoSum2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

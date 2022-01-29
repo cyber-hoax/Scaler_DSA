@@ -86,8 +86,8 @@ int gcd(int n , int m){
 
 int main(){
     
-    int A = 4;
-    int  B= 6 ;
+    int A = 2;
+    int  B= 5 ;
     
     return gcd(A,B) ; 
     
