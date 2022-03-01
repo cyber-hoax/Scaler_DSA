@@ -15,13 +15,13 @@
 		8C15AAE3278EDB900037089D /* creatingNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C42E4972770DC3400D2D841 /* creatingNode.cpp */; };
 		8C2EC6772792AB0F0088E804 /* longestCommonPrefix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2EC6762792AB0F0088E804 /* longestCommonPrefix.cpp */; };
 		8C389992278BFF0D00152CA7 /* LargetContinuousSeqZeroSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3ADAF527764B1500A6C99A /* LargetContinuousSeqZeroSum.cpp */; };
-		8C494E8D27AAE64500C140A1 /* powerExponential.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C494E8C27AAE64500C140A1 /* powerExponential.cpp */; };
 		8C494E8F27B54EA400C140A1 /* insertionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C494E8E27B54EA300C140A1 /* insertionSort.cpp */; };
 		8C494E9127B6CD6F00C140A1 /* arrayWIthConsecElems.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C494E9027B6CD6F00C140A1 /* arrayWIthConsecElems.cpp */; };
 		8C6A591B276A31AB007DDBFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A591A276A31AB007DDBFE /* main.cpp */; };
 		8C771F7A279BF88A009FE7CE /* nodeCount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C771F79279BF88A009FE7CE /* nodeCount.cpp */; };
 		8C7BE4EA2783CA6A00B5C33C /* minStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4E92783CA6A00B5C33C /* minStack.cpp */; };
 		8C7BE4F027846BC900B5C33C /* balancedParanthesis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4EF27846BC900B5C33C /* balancedParanthesis.cpp */; };
+		8CB4748427C8C0DA006B858B /* sumofDigits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB4748327C8C0DA006B858B /* sumofDigits.cpp */; };
 		8CBD035227973AEE00BC5760 /* Smallest_Subarray_With_a_Given_Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CBD035127973AEE00BC5760 /* Smallest_Subarray_With_a_Given_Sum.cpp */; };
 		8CC7BF762797FA08003A3331 /* wayTooLongWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC7BF752797FA08003A3331 /* wayTooLongWords.cpp */; };
 /* End PBXBuildFile section */
@@ -261,6 +261,7 @@
 		8CB21B3F276B5F05008FEFFB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CB21B46276B602B008FEFFB /* firstRepeatinElement.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = firstRepeatinElement.cpp; sourceTree = "<group>"; };
 		8CB21B49276C9ECF008FEFFB /* subarray_Given_Sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = subarray_Given_Sum.cpp; sourceTree = "<group>"; };
+		8CB4748327C8C0DA006B858B /* sumofDigits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sumofDigits.cpp; sourceTree = "<group>"; };
 		8CB5A5B02778717200CD1D90 /* lowerMatrixMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lowerMatrixMatrix.cpp; sourceTree = "<group>"; };
 		8CB5A5B2277884B000CD1D90 /* specialSubSequenceAG.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = specialSubSequenceAG.cpp; sourceTree = "<group>"; };
 		8CB5A5B42778D94300CD1D90 /* minimumAbsDifference.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = minimumAbsDifference.cpp; sourceTree = "<group>"; };
@@ -545,6 +546,7 @@
 				8C7BE4DC2783053800B5C33C /* powerFunction.cpp */,
 				8C771F7F279FDCEE009FE7CE /* checkPalindrom.cpp */,
 				8C494E8C27AAE64500C140A1 /* powerExponential.cpp */,
+				8CB4748327C8C0DA006B858B /* sumofDigits.cpp */,
 			);
 			path = Recursion;
 			sourceTree = "<group>";
@@ -1114,7 +1116,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C494E8D27AAE64500C140A1 /* powerExponential.cpp in Sources */,
+				8CB4748427C8C0DA006B858B /* sumofDigits.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
