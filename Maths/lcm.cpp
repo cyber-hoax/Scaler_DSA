@@ -54,9 +54,9 @@ using namespace std;
 
 int main(){
     int A , B ,temp , lcm , gcd;
-    cin >> A;
-    cin >> B ;
     
+    A = 10 ;
+    B = 5 ;
     int a = A;
     int b = B;
     
