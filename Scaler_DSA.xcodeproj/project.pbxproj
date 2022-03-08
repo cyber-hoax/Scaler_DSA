@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8C07D2D527A25FE7003F9F28 /* GreatestCommonDiivisor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C07D2D427A25FE7003F9F28 /* GreatestCommonDiivisor.cpp */; };
 		8C14E89727A5450600F93D29 /* pairWithGivenXor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C14E89627A5450600F93D29 /* pairWithGivenXor.cpp */; };
 		8C14E89D27A671A200F93D29 /* keepMultiplyingFoundValuesbyTwo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C14E89C27A671A200F93D29 /* keepMultiplyingFoundValuesbyTwo.cpp */; };
 		8C14E8AA27A6EE0200F93D29 /* singleNumber2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C14E8A927A6EE0200F93D29 /* singleNumber2.cpp */; };
@@ -24,6 +23,7 @@
 		8CB4748427C8C0DA006B858B /* sumofDigits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB4748327C8C0DA006B858B /* sumofDigits.cpp */; };
 		8CBD035227973AEE00BC5760 /* Smallest_Subarray_With_a_Given_Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CBD035127973AEE00BC5760 /* Smallest_Subarray_With_a_Given_Sum.cpp */; };
 		8CC7BF762797FA08003A3331 /* wayTooLongWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC7BF752797FA08003A3331 /* wayTooLongWords.cpp */; };
+		8CEAE9E627D721D1000C44D3 /* lcm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CEAE9E527D721D1000C44D3 /* lcm.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -287,6 +287,7 @@
 		8CC7BF702797F9F0003A3331 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC7BF752797FA08003A3331 /* wayTooLongWords.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wayTooLongWords.cpp; sourceTree = "<group>"; };
 		8CC7BF772798160D003A3331 /* identicaBinaryTrees.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = identicaBinaryTrees.cpp; sourceTree = "<group>"; };
+		8CEAE9E527D721D1000C44D3 /* lcm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lcm.cpp; sourceTree = "<group>"; };
 		8CFFD3EA279AA56A00E25C2E /* Maths */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Maths; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CFFD3EC279AA56A00E25C2E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CFFD3F1279AA58400E25C2E /* AmoduloB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AmoduloB.cpp; sourceTree = "<group>"; };
@@ -664,6 +665,7 @@
 				8CFFD3F5279B1E2500E25C2E /* pairSumDivisibleBYM.cpp */,
 				8C771F7B279D4F90009FE7CE /* inverseModulo.cpp */,
 				8C07D2D427A25FE7003F9F28 /* GreatestCommonDiivisor.cpp */,
+				8CEAE9E527D721D1000C44D3 /* lcm.cpp */,
 			);
 			path = Maths;
 			sourceTree = "<group>";
@@ -1190,7 +1192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C07D2D527A25FE7003F9F28 /* GreatestCommonDiivisor.cpp in Sources */,
+				8CEAE9E627D721D1000C44D3 /* lcm.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
