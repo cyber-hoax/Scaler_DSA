@@ -21,7 +21,6 @@
 		8C7BE4EA2783CA6A00B5C33C /* minStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4E92783CA6A00B5C33C /* minStack.cpp */; };
 		8C7BE4F027846BC900B5C33C /* balancedParanthesis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4EF27846BC900B5C33C /* balancedParanthesis.cpp */; };
 		8C8CBFCE27E5EBD9008C303E /* changeCharacter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8CBFCD27E5EBD9008C303E /* changeCharacter.cpp */; };
-		8CB4748427C8C0DA006B858B /* sumofDigits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB4748327C8C0DA006B858B /* sumofDigits.cpp */; };
 		8CBD035227973AEE00BC5760 /* Smallest_Subarray_With_a_Given_Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CBD035127973AEE00BC5760 /* Smallest_Subarray_With_a_Given_Sum.cpp */; };
 		8CC7BF762797FA08003A3331 /* wayTooLongWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC7BF752797FA08003A3331 /* wayTooLongWords.cpp */; };
 		8CEAE9E627D721D1000C44D3 /* lcm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CEAE9E527D721D1000C44D3 /* lcm.cpp */; };
@@ -1126,7 +1125,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C333B8227E7461D006C44F4 /* findFactorial.cpp in Sources */,
-				8CB4748427C8C0DA006B858B /* sumofDigits.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
