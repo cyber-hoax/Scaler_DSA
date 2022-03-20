@@ -12,7 +12,7 @@
 		8C14E8AA27A6EE0200F93D29 /* singleNumber2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C14E8A927A6EE0200F93D29 /* singleNumber2.cpp */; };
 		8C15AAE2278EC9F60037089D /* linked.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C15AAE0278EC9F60037089D /* linked.cpp */; };
 		8C15AAE3278EDB900037089D /* creatingNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C42E4972770DC3400D2D841 /* creatingNode.cpp */; };
-		8C2EC6772792AB0F0088E804 /* longestCommonPrefix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2EC6762792AB0F0088E804 /* longestCommonPrefix.cpp */; };
+		8C333B8227E7461D006C44F4 /* findFactorial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C333B8127E7461D006C44F4 /* findFactorial.cpp */; };
 		8C33A0A727CDFFAA0086DB72 /* countTheNodes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C33A0A627CDFFAA0086DB72 /* countTheNodes.cpp */; };
 		8C389992278BFF0D00152CA7 /* LargetContinuousSeqZeroSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3ADAF527764B1500A6C99A /* LargetContinuousSeqZeroSum.cpp */; };
 		8C494E8F27B54EA400C140A1 /* insertionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C494E8E27B54EA300C140A1 /* insertionSort.cpp */; };
@@ -20,6 +20,7 @@
 		8C6A591B276A31AB007DDBFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A591A276A31AB007DDBFE /* main.cpp */; };
 		8C7BE4EA2783CA6A00B5C33C /* minStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4E92783CA6A00B5C33C /* minStack.cpp */; };
 		8C7BE4F027846BC900B5C33C /* balancedParanthesis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4EF27846BC900B5C33C /* balancedParanthesis.cpp */; };
+		8C8CBFCE27E5EBD9008C303E /* changeCharacter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8CBFCD27E5EBD9008C303E /* changeCharacter.cpp */; };
 		8CB4748427C8C0DA006B858B /* sumofDigits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB4748327C8C0DA006B858B /* sumofDigits.cpp */; };
 		8CBD035227973AEE00BC5760 /* Smallest_Subarray_With_a_Given_Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CBD035127973AEE00BC5760 /* Smallest_Subarray_With_a_Given_Sum.cpp */; };
 		8CC7BF762797FA08003A3331 /* wayTooLongWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC7BF752797FA08003A3331 /* wayTooLongWords.cpp */; };
@@ -198,6 +199,7 @@
 		8C2EC672279161ED0088E804 /* beggarsOutsideTemple.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = beggarsOutsideTemple.cpp; sourceTree = "<group>"; };
 		8C2EC6742791E8030088E804 /* maxDistance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = maxDistance.cpp; sourceTree = "<group>"; };
 		8C2EC6762792AB0F0088E804 /* longestCommonPrefix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = longestCommonPrefix.cpp; sourceTree = "<group>"; };
+		8C333B8127E7461D006C44F4 /* findFactorial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = findFactorial.cpp; sourceTree = "<group>"; };
 		8C33A0A627CDFFAA0086DB72 /* countTheNodes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = countTheNodes.cpp; sourceTree = "<group>"; };
 		8C38998E2789A47900152CA7 /* maxNonNegativeSubArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = maxNonNegativeSubArray.cpp; sourceTree = "<group>"; };
 		8C389990278B2C7C00152CA7 /* pickFromBothSIde.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pickFromBothSIde.cpp; sourceTree = "<group>"; };
@@ -244,6 +246,7 @@
 		8C7BE4EB2783CB2A00B5C33C /* stack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stack.cpp; sourceTree = "<group>"; };
 		8C7BE4ED2784118800B5C33C /* rowColumnZero.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rowColumnZero.cpp; sourceTree = "<group>"; };
 		8C7BE4EF27846BC900B5C33C /* balancedParanthesis.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = balancedParanthesis.cpp; sourceTree = "<group>"; };
+		8C8CBFCD27E5EBD9008C303E /* changeCharacter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = changeCharacter.cpp; sourceTree = "<group>"; };
 		8C9174192776EEEB005448CA /* greatestElmentsOne */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = greatestElmentsOne; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9174242776EF04005448CA /* Arrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Arrays; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9174262776EF04005448CA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -433,6 +436,7 @@
 				8C3ADAEE2775AA8700A6C99A /* main.cpp */,
 				8C3ADAF32775AE3000A6C99A /* longestPalindromicSubstring.cpp */,
 				8C2EC6762792AB0F0088E804 /* longestCommonPrefix.cpp */,
+				8C8CBFCD27E5EBD9008C303E /* changeCharacter.cpp */,
 			);
 			path = Strings;
 			sourceTree = "<group>";
@@ -550,6 +554,7 @@
 				8C771F7F279FDCEE009FE7CE /* checkPalindrom.cpp */,
 				8C494E8C27AAE64500C140A1 /* powerExponential.cpp */,
 				8CB4748327C8C0DA006B858B /* sumofDigits.cpp */,
+				8C333B8127E7461D006C44F4 /* findFactorial.cpp */,
 			);
 			path = Recursion;
 			sourceTree = "<group>";
@@ -1072,7 +1077,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C2EC6772792AB0F0088E804 /* longestCommonPrefix.cpp in Sources */,
+				8C8CBFCE27E5EBD9008C303E /* changeCharacter.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1120,6 +1125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C333B8227E7461D006C44F4 /* findFactorial.cpp in Sources */,
 				8CB4748427C8C0DA006B858B /* sumofDigits.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
