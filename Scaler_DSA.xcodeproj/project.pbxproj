@@ -16,7 +16,6 @@
 		8C333B8627E76156006C44F4 /* maxMod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C333B8527E76156006C44F4 /* maxMod.cpp */; };
 		8C333B8827E778E3006C44F4 /* kthsmallest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C333B8727E778E3006C44F4 /* kthsmallest.cpp */; };
 		8C333B8A27E7806F006C44F4 /* subarr_with_given_sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C333B8927E7806F006C44F4 /* subarr_with_given_sum.cpp */; };
-		8C333B9227E8384E006C44F4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C333B9127E8384E006C44F4 /* main.cpp */; };
 		8C333B9727E83882006C44F4 /* sorted_inserted_postion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C333B9627E83882006C44F4 /* sorted_inserted_postion.cpp */; };
 		8C33A0A727CDFFAA0086DB72 /* countTheNodes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C33A0A627CDFFAA0086DB72 /* countTheNodes.cpp */; };
 		8C389992278BFF0D00152CA7 /* LargetContinuousSeqZeroSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3ADAF527764B1500A6C99A /* LargetContinuousSeqZeroSum.cpp */; };
@@ -1031,7 +1030,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1320;
+				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					8C14E8A127A6EDE800F93D29 = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -1137,7 +1136,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C333B9227E8384E006C44F4 /* main.cpp in Sources */,
 				8C333B9727E83882006C44F4 /* sorted_inserted_postion.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1276,6 +1274,7 @@
 		8C14E8A727A6EDE800F93D29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 748W2XNRKG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1287,6 +1286,7 @@
 		8C14E8A827A6EDE800F93D29 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 748W2XNRKG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1298,6 +1298,7 @@
 		8C333B9427E8384E006C44F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 748W2XNRKG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1309,6 +1310,7 @@
 		8C333B9527E8384E006C44F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 748W2XNRKG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1320,6 +1322,7 @@
 		8C3ADAF12775AA8700A6C99A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 748W2XNRKG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1330,6 +1333,7 @@
 		8C3ADAF22775AA8700A6C99A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 748W2XNRKG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1513,6 +1517,7 @@
 		8C7BE4B527803EC300B5C33C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 748W2XNRKG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1523,6 +1528,7 @@
 		8C7BE4B627803EC300B5C33C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 748W2XNRKG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1533,6 +1539,7 @@
 		8C7BE4CD2782169800B5C33C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 748W2XNRKG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1543,6 +1550,7 @@
 		8C7BE4CE2782169800B5C33C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 748W2XNRKG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1553,6 +1561,7 @@
 		8C7BE4DA2782FFD600B5C33C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 748W2XNRKG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1563,6 +1572,7 @@
 		8C7BE4DB2782FFD600B5C33C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 748W2XNRKG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1573,6 +1583,7 @@
 		8C7BE4E72783CA4600B5C33C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 748W2XNRKG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1583,6 +1594,7 @@
 		8C7BE4E82783CA4600B5C33C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 748W2XNRKG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1593,6 +1605,7 @@
 		8C91741D2776EEEB005448CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 748W2XNRKG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1603,6 +1616,7 @@
 		8C91741E2776EEEB005448CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 748W2XNRKG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1613,6 +1627,7 @@
 		8C9174292776EF04005448CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 748W2XNRKG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1623,6 +1638,7 @@
 		8C91742A2776EF04005448CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 748W2XNRKG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1633,6 +1649,7 @@
 		8C95091627882C65000EBE2E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 748W2XNRKG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1644,6 +1661,7 @@
 		8C95091727882C65000EBE2E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 748W2XNRKG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1677,6 +1695,7 @@
 		8CB5A5BF2778FBFD00CD1D90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 748W2XNRKG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1687,6 +1706,7 @@
 		8CB5A5C02778FBFD00CD1D90 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 748W2XNRKG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1697,6 +1717,7 @@
 		8CC3F6852794B6330003D18F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 748W2XNRKG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1708,6 +1729,7 @@
 		8CC3F6862794B6330003D18F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 748W2XNRKG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1719,6 +1741,7 @@
 		8CC7BF722797F9F0003A3331 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 748W2XNRKG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1730,6 +1753,7 @@
 		8CC7BF732797F9F0003A3331 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 748W2XNRKG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1741,6 +1765,7 @@
 		8CFFD3EE279AA56A00E25C2E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 748W2XNRKG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1752,6 +1777,7 @@
 		8CFFD3EF279AA56A00E25C2E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 748W2XNRKG;
 				ENABLE_HARDENED_RUNTIME = YES;

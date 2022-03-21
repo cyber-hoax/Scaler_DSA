@@ -73,9 +73,9 @@
 using namespace std ;
 
 int main (){
-    int A[] = {1,2,3,4,5};
-    int B = 5;
-    
+//    int A[] = {1,2,3,4,5};
+//    int B = 5;
+//    
     
     
 }

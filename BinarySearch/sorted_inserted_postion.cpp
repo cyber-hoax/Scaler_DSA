@@ -56,3 +56,31 @@
 #include <stdio.h>
 #include <iostream>
 
+using namespace std;
+
+int main (){
+    int A[] = {1, 3, 5, 6};
+    int B = 7;
+    int n = size(A);
+    
+    int l = 0 ;
+    int r = n-1;
+    
+    while(l <= r){
+        int mid = (l+r)/2 ;
+        if(A[mid] == B){
+            cout << mid;
+            return mid;
+        }
+        else if(A[mid] > B)
+            r = mid - 1 ;
+           
+        
+        else{
+            l = mid +1 ;
+        }
+        
+    }
+    return r+1;
+}
+
