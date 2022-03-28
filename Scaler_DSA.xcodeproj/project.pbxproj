@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		8C14E89D27A671A200F93D29 /* keepMultiplyingFoundValuesbyTwo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C14E89C27A671A200F93D29 /* keepMultiplyingFoundValuesbyTwo.cpp */; };
 		8C14E8AA27A6EE0200F93D29 /* singleNumber2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C14E8A927A6EE0200F93D29 /* singleNumber2.cpp */; };
-		8C15AAE2278EC9F60037089D /* linked.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C15AAE0278EC9F60037089D /* linked.cpp */; };
 		8C15AAE3278EDB900037089D /* creatingNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C42E4972770DC3400D2D841 /* creatingNode.cpp */; };
 		8C333B8427E74BC1006C44F4 /* reverseString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C333B8327E74BC1006C44F4 /* reverseString.cpp */; };
 		8C333B8627E76156006C44F4 /* maxMod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C333B8527E76156006C44F4 /* maxMod.cpp */; };
@@ -22,9 +21,10 @@
 		8C6A591B276A31AB007DDBFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A591A276A31AB007DDBFE /* main.cpp */; };
 		8C7BE4EA2783CA6A00B5C33C /* minStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4E92783CA6A00B5C33C /* minStack.cpp */; };
 		8C7BE4F027846BC900B5C33C /* balancedParanthesis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4EF27846BC900B5C33C /* balancedParanthesis.cpp */; };
-		8C8C2E9627E9A42E002FFB6E /* subarr_with_zero_sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8C2E9527E9A42E002FFB6E /* subarr_with_zero_sum.cpp */; };
+		8C8C2E9A27EC28CC002FFB6E /* OOPS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8C2E9927EC28CC002FFB6E /* OOPS.cpp */; };
 		8C8CBFCE27E5EBD9008C303E /* changeCharacter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8CBFCD27E5EBD9008C303E /* changeCharacter.cpp */; };
 		8CC7BF762797FA08003A3331 /* wayTooLongWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC7BF752797FA08003A3331 /* wayTooLongWords.cpp */; };
+		8CEDC2BC27F1ADD100E3314C /* shaggyAndDistance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CEDC2BB27F1ADD100E3314C /* shaggyAndDistance.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -263,6 +263,8 @@
 		8C7BE4ED2784118800B5C33C /* rowColumnZero.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rowColumnZero.cpp; sourceTree = "<group>"; };
 		8C7BE4EF27846BC900B5C33C /* balancedParanthesis.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = balancedParanthesis.cpp; sourceTree = "<group>"; };
 		8C8C2E9527E9A42E002FFB6E /* subarr_with_zero_sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = subarr_with_zero_sum.cpp; sourceTree = "<group>"; };
+		8C8C2E9727EA339C002FFB6E /* longest_consecutive_seq.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = longest_consecutive_seq.cpp; sourceTree = "<group>"; };
+		8C8C2E9927EC28CC002FFB6E /* OOPS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OOPS.cpp; sourceTree = "<group>"; };
 		8C8CBFCD27E5EBD9008C303E /* changeCharacter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = changeCharacter.cpp; sourceTree = "<group>"; };
 		8C9174192776EEEB005448CA /* greatestElmentsOne */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = greatestElmentsOne; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9174242776EF04005448CA /* Arrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Arrays; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -308,6 +310,7 @@
 		8CC7BF752797FA08003A3331 /* wayTooLongWords.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wayTooLongWords.cpp; sourceTree = "<group>"; };
 		8CC7BF772798160D003A3331 /* identicaBinaryTrees.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = identicaBinaryTrees.cpp; sourceTree = "<group>"; };
 		8CEAE9E527D721D1000C44D3 /* lcm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lcm.cpp; sourceTree = "<group>"; };
+		8CEDC2BB27F1ADD100E3314C /* shaggyAndDistance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = shaggyAndDistance.cpp; sourceTree = "<group>"; };
 		8CFFD3EA279AA56A00E25C2E /* Maths */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Maths; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CFFD3EC279AA56A00E25C2E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CFFD3F1279AA58400E25C2E /* AmoduloB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AmoduloB.cpp; sourceTree = "<group>"; };
@@ -493,6 +496,7 @@
 				8C7BE4EB2783CB2A00B5C33C /* stack.cpp */,
 				8C15AAE0278EC9F60037089D /* linked.cpp */,
 				8C15AAE1278EC9F60037089D /* linked.hpp */,
+				8C8C2E9927EC28CC002FFB6E /* OOPS.cpp */,
 			);
 			path = LearningTheLang;
 			sourceTree = "<group>";
@@ -666,6 +670,8 @@
 				8C771F7D279DB279009FE7CE /* isDictionary.cpp */,
 				8C14E89627A5450600F93D29 /* pairWithGivenXor.cpp */,
 				8C8C2E9527E9A42E002FFB6E /* subarr_with_zero_sum.cpp */,
+				8C8C2E9727EA339C002FFB6E /* longest_consecutive_seq.cpp */,
+				8CEDC2BB27F1ADD100E3314C /* shaggyAndDistance.cpp */,
 			);
 			path = Hashing;
 			sourceTree = "<group>";
@@ -1162,7 +1168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C15AAE2278EC9F60037089D /* linked.cpp in Sources */,
+				8C8C2E9A27EC28CC002FFB6E /* OOPS.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1234,7 +1240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C8C2E9627E9A42E002FFB6E /* subarr_with_zero_sum.cpp in Sources */,
+				8CEDC2BC27F1ADD100E3314C /* shaggyAndDistance.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
