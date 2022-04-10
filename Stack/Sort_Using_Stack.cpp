@@ -74,7 +74,7 @@ int main (){
         if(A[i] > st1.top())
             st1.push(A[i]);
         else{
-            while(st1.top() > A[i]){
+            while(st1.size()> 0 && st1.top() > A[i]){
                 st2.push(st1.top());
                 st1.pop();
             }
