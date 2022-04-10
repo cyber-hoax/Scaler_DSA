@@ -22,7 +22,8 @@
 		8C53455A280000D100241837 /* ReturnHead.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C534559280000D100241837 /* ReturnHead.cpp */; };
 		8C6A591B276A31AB007DDBFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A591A276A31AB007DDBFE /* main.cpp */; };
 		8C8C2E9A27EC28CC002FFB6E /* OOPS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8C2E9927EC28CC002FFB6E /* OOPS.cpp */; };
-		8C8C4ECE28020F560035FF8D /* PassingGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8C4ECD28020F560035FF8D /* PassingGame.cpp */; };
+		8C8C4ECF280318810035FF8D /* minStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BE4E92783CA6A00B5C33C /* minStack.cpp */; };
+		8C8C4ED1280322710035FF8D /* Sort_Using_Stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8C4ED0280322710035FF8D /* Sort_Using_Stack.cpp */; };
 		8C8CBFCE27E5EBD9008C303E /* changeCharacter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8CBFCD27E5EBD9008C303E /* changeCharacter.cpp */; };
 		8CC7BF762797FA08003A3331 /* wayTooLongWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC7BF752797FA08003A3331 /* wayTooLongWords.cpp */; };
 		8CEDC2BC27F1ADD100E3314C /* shaggyAndDistance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CEDC2BB27F1ADD100E3314C /* shaggyAndDistance.cpp */; };
@@ -271,6 +272,7 @@
 		8C8C2E9927EC28CC002FFB6E /* OOPS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OOPS.cpp; sourceTree = "<group>"; };
 		8C8C4ECB2801E4990035FF8D /* Sijmply_Directory_path.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sijmply_Directory_path.cpp; sourceTree = "<group>"; };
 		8C8C4ECD28020F560035FF8D /* PassingGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PassingGame.cpp; sourceTree = "<group>"; };
+		8C8C4ED0280322710035FF8D /* Sort_Using_Stack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sort_Using_Stack.cpp; sourceTree = "<group>"; };
 		8C8CBFCD27E5EBD9008C303E /* changeCharacter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = changeCharacter.cpp; sourceTree = "<group>"; };
 		8C9174192776EEEB005448CA /* greatestElmentsOne */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = greatestElmentsOne; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9174242776EF04005448CA /* Arrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Arrays; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -618,6 +620,7 @@
 				8CB5ACF728015707003BCE1D /* Double_Character_Trouble.cpp */,
 				8C8C4ECB2801E4990035FF8D /* Sijmply_Directory_path.cpp */,
 				8C8C4ECD28020F560035FF8D /* PassingGame.cpp */,
+				8C8C4ED0280322710035FF8D /* Sort_Using_Stack.cpp */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
@@ -1223,7 +1226,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C8C4ECE28020F560035FF8D /* PassingGame.cpp in Sources */,
+				8C8C4ECF280318810035FF8D /* minStack.cpp in Sources */,
+				8C8C4ED1280322710035FF8D /* Sort_Using_Stack.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
