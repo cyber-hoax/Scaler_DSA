@@ -12,7 +12,6 @@
 		8C333B8627E76156006C44F4 /* maxMod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C333B8527E76156006C44F4 /* maxMod.cpp */; };
 		8C333B8827E778E3006C44F4 /* kthsmallest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C333B8727E778E3006C44F4 /* kthsmallest.cpp */; };
 		8C333B8A27E7806F006C44F4 /* subarr_with_given_sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C333B8927E7806F006C44F4 /* subarr_with_given_sum.cpp */; };
-		8C333B9727E83882006C44F4 /* sorted_inserted_postion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C333B9627E83882006C44F4 /* sorted_inserted_postion.cpp */; };
 		8C33A0A727CDFFAA0086DB72 /* countTheNodes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C33A0A627CDFFAA0086DB72 /* countTheNodes.cpp */; };
 		8C38057728007DA8005CFBED /* middle_elements_LL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C38057628007DA8005CFBED /* middle_elements_LL.cpp */; };
 		8C38057928007FA6005CFBED /* Convert_Array_LL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C38057828007FA6005CFBED /* Convert_Array_LL.cpp */; };
@@ -23,6 +22,7 @@
 		8C8C2E9A27EC28CC002FFB6E /* OOPS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8C2E9927EC28CC002FFB6E /* OOPS.cpp */; };
 		8C8C4ED1280322710035FF8D /* Sort_Using_Stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8C4ED0280322710035FF8D /* Sort_Using_Stack.cpp */; };
 		8C8C4ED3280336D70035FF8D /* Baseball_Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8C4ED2280336D70035FF8D /* Baseball_Game.cpp */; };
+		8C8C4ED7280426A90035FF8D /* Rotated_Sorted_Array_Search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8C4ED6280426A90035FF8D /* Rotated_Sorted_Array_Search.cpp */; };
 		8C8CBFCE27E5EBD9008C303E /* changeCharacter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8CBFCD27E5EBD9008C303E /* changeCharacter.cpp */; };
 		8CC7BF762797FA08003A3331 /* wayTooLongWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC7BF752797FA08003A3331 /* wayTooLongWords.cpp */; };
 		8CEDC2BC27F1ADD100E3314C /* shaggyAndDistance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CEDC2BB27F1ADD100E3314C /* shaggyAndDistance.cpp */; };
@@ -273,6 +273,8 @@
 		8C8C4ECD28020F560035FF8D /* PassingGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PassingGame.cpp; sourceTree = "<group>"; };
 		8C8C4ED0280322710035FF8D /* Sort_Using_Stack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sort_Using_Stack.cpp; sourceTree = "<group>"; };
 		8C8C4ED2280336D70035FF8D /* Baseball_Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Baseball_Game.cpp; sourceTree = "<group>"; };
+		8C8C4ED42803F76C0035FF8D /* Aggressive_Cows.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Aggressive_Cows.cpp; sourceTree = "<group>"; };
+		8C8C4ED6280426A90035FF8D /* Rotated_Sorted_Array_Search.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Rotated_Sorted_Array_Search.cpp; sourceTree = "<group>"; };
 		8C8CBFCD27E5EBD9008C303E /* changeCharacter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = changeCharacter.cpp; sourceTree = "<group>"; };
 		8C9174192776EEEB005448CA /* greatestElmentsOne */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = greatestElmentsOne; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9174242776EF04005448CA /* Arrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Arrays; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -471,6 +473,8 @@
 			children = (
 				8C333B9127E8384E006C44F4 /* main.cpp */,
 				8C333B9627E83882006C44F4 /* sorted_inserted_postion.cpp */,
+				8C8C4ED42803F76C0035FF8D /* Aggressive_Cows.cpp */,
+				8C8C4ED6280426A90035FF8D /* Rotated_Sorted_Array_Search.cpp */,
 			);
 			path = BinarySearch;
 			sourceTree = "<group>";
@@ -1161,7 +1165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C333B9727E83882006C44F4 /* sorted_inserted_postion.cpp in Sources */,
+				8C8C4ED7280426A90035FF8D /* Rotated_Sorted_Array_Search.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
