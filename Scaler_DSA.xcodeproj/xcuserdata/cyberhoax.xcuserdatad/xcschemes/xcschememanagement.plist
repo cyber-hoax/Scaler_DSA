@@ -54,6 +54,11 @@
 			<key>orderHint</key>
 			<integer>10</integer>
 		</dict>
+		<key>Queues.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
 		<key>Recursion.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
