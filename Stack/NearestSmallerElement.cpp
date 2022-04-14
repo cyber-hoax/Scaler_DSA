@@ -68,7 +68,6 @@ int main(){
     st.push(-1);
   
     
-    
     for(int i = 0; i< n ; i++){
         
         int curr = A[i];
