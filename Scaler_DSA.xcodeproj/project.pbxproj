@@ -26,7 +26,7 @@
 		8C8CBFCE27E5EBD9008C303E /* changeCharacter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8CBFCD27E5EBD9008C303E /* changeCharacter.cpp */; };
 		8CC7BF762797FA08003A3331 /* wayTooLongWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC7BF752797FA08003A3331 /* wayTooLongWords.cpp */; };
 		8CEDC2BC27F1ADD100E3314C /* shaggyAndDistance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CEDC2BB27F1ADD100E3314C /* shaggyAndDistance.cpp */; };
-		8CF7CF2E2807F40D00282138 /* N_Integers_Containing_1_2_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF7CF2D2807F40D00282138 /* N_Integers_Containing_1_2_3.cpp */; };
+		8CF7CF3028080E1E00282138 /* Perfect_Numbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF7CF2F28080E1E00282138 /* Perfect_Numbers.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -340,6 +340,7 @@
 		8CF7CF252807E23E00282138 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CF7CF2A2807E2C000282138 /* Reverse_Elements_Queue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Reverse_Elements_Queue.cpp; sourceTree = "<group>"; };
 		8CF7CF2D2807F40D00282138 /* N_Integers_Containing_1_2_3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = N_Integers_Containing_1_2_3.cpp; sourceTree = "<group>"; };
+		8CF7CF2F28080E1E00282138 /* Perfect_Numbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Perfect_Numbers.cpp; sourceTree = "<group>"; };
 		8CFFD3EA279AA56A00E25C2E /* Maths */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Maths; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CFFD3EC279AA56A00E25C2E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CFFD3F1279AA58400E25C2E /* AmoduloB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AmoduloB.cpp; sourceTree = "<group>"; };
@@ -765,6 +766,7 @@
 				8CF7CF252807E23E00282138 /* main.cpp */,
 				8CF7CF2A2807E2C000282138 /* Reverse_Elements_Queue.cpp */,
 				8CF7CF2D2807F40D00282138 /* N_Integers_Containing_1_2_3.cpp */,
+				8CF7CF2F28080E1E00282138 /* Perfect_Numbers.cpp */,
 			);
 			path = Queues;
 			sourceTree = "<group>";
@@ -1356,7 +1358,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CF7CF2E2807F40D00282138 /* N_Integers_Containing_1_2_3.cpp in Sources */,
+				8CF7CF3028080E1E00282138 /* Perfect_Numbers.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
