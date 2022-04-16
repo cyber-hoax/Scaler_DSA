@@ -26,7 +26,7 @@
 		8CC7BF762797FA08003A3331 /* wayTooLongWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC7BF752797FA08003A3331 /* wayTooLongWords.cpp */; };
 		8CEDC2BC27F1ADD100E3314C /* shaggyAndDistance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CEDC2BB27F1ADD100E3314C /* shaggyAndDistance.cpp */; };
 		8CF7CF3228098BD600282138 /* Redundant_Braces.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF7CF3128098BD600282138 /* Redundant_Braces.cpp */; };
-		8CF7CF35280B11F500282138 /* Sliding_Window_Maximum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF7CF33280B103300282138 /* Sliding_Window_Maximum.cpp */; };
+		8CF7CF37280B3DD100282138 /* First_Non_Repeating_charcter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF7CF36280B3DD100282138 /* First_Non_Repeating_charcter.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -343,6 +343,7 @@
 		8CF7CF2F28080E1E00282138 /* Perfect_Numbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Perfect_Numbers.cpp; sourceTree = "<group>"; };
 		8CF7CF3128098BD600282138 /* Redundant_Braces.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Redundant_Braces.cpp; sourceTree = "<group>"; };
 		8CF7CF33280B103300282138 /* Sliding_Window_Maximum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sliding_Window_Maximum.cpp; sourceTree = "<group>"; };
+		8CF7CF36280B3DD100282138 /* First_Non_Repeating_charcter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = First_Non_Repeating_charcter.cpp; sourceTree = "<group>"; };
 		8CFFD3EA279AA56A00E25C2E /* Maths */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Maths; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CFFD3EC279AA56A00E25C2E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CFFD3F1279AA58400E25C2E /* AmoduloB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AmoduloB.cpp; sourceTree = "<group>"; };
@@ -771,6 +772,7 @@
 				8CF7CF2D2807F40D00282138 /* N_Integers_Containing_1_2_3.cpp */,
 				8CF7CF2F28080E1E00282138 /* Perfect_Numbers.cpp */,
 				8CF7CF33280B103300282138 /* Sliding_Window_Maximum.cpp */,
+				8CF7CF36280B3DD100282138 /* First_Non_Repeating_charcter.cpp */,
 			);
 			path = Queues;
 			sourceTree = "<group>";
@@ -1362,7 +1364,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CF7CF35280B11F500282138 /* Sliding_Window_Maximum.cpp in Sources */,
+				8CF7CF37280B3DD100282138 /* First_Non_Repeating_charcter.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
