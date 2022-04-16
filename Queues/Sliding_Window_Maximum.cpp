@@ -72,6 +72,7 @@
 #include <stdio.h>
 #include <iostream>
 #include <vector>
+#include <deque>
 
 using namespace std;
 
@@ -79,7 +80,7 @@ int main(){
     int A[] = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
     int B = 2;
     
-    // brutforce TLE : 
+    // brutforce TLE :
 //
 //    int i = 0;
 //    int j = B-1 ;
@@ -102,4 +103,37 @@ int main(){
 //
 //    for(auto x : ans)
 //        cout << x << " " << endl ;
+    
+    vector<int> ans;
+    deque<int> dq;
+    int n = size(A);
+    for(int i = 0 ; i<B; i++){
+        while(!dq.empty() && dq.back() <A[i]){
+            dq.pop_back();
+        }
+        dq.push_back(A[i]);
+        
+    }
+    
+    ans.push_back(dq.front());
+    
+    int i = 1;
+    int j = B;
+    
+    while(j<n){
+        if(A[i-1] == dq.front()){
+            dq.pop_front();
+        }
+        while(!dq.empty() && dq.back() < A[j]){
+            dq.pop_back();
+        }
+        dq.push_back(A[j]) ;
+        ans.push_back(dq.front());
+        i++ ;
+        j++ ;
+        
+    }
+    
+    for(auto x : ans )
+        cout << x << " " << endl  ;
 }
