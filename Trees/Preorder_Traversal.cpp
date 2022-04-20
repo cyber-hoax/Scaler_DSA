@@ -50,15 +50,14 @@ int main(){
             if(st.empty())
                 return 0;
             else{
-               
-                node = st.top();
                 st.pop();
+                node = st.top();
                 node = node-> right ;
             }
         }
     }
     
     for(auto x : ans)
-        cout << x <<endl ;;
+        cout << ans ;
     
 }
