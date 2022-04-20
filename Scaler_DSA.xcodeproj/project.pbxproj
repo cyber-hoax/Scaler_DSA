@@ -12,13 +12,13 @@
 		8C333B8627E76156006C44F4 /* maxMod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C333B8527E76156006C44F4 /* maxMod.cpp */; };
 		8C333B8827E778E3006C44F4 /* kthsmallest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C333B8727E778E3006C44F4 /* kthsmallest.cpp */; };
 		8C333B8A27E7806F006C44F4 /* subarr_with_given_sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C333B8927E7806F006C44F4 /* subarr_with_given_sum.cpp */; };
-		8C33A0A727CDFFAA0086DB72 /* countTheNodes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C33A0A627CDFFAA0086DB72 /* countTheNodes.cpp */; };
 		8C38057728007DA8005CFBED /* middle_elements_LL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C38057628007DA8005CFBED /* middle_elements_LL.cpp */; };
 		8C38057928007FA6005CFBED /* Convert_Array_LL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C38057828007FA6005CFBED /* Convert_Array_LL.cpp */; };
 		8C389992278BFF0D00152CA7 /* LargetContinuousSeqZeroSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3ADAF527764B1500A6C99A /* LargetContinuousSeqZeroSum.cpp */; };
 		8C494E9127B6CD6F00C140A1 /* arrayWIthConsecElems.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C494E9027B6CD6F00C140A1 /* arrayWIthConsecElems.cpp */; };
 		8C53455A280000D100241837 /* ReturnHead.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C534559280000D100241837 /* ReturnHead.cpp */; };
 		8C6A591B276A31AB007DDBFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A591A276A31AB007DDBFE /* main.cpp */; };
+		8C736564280FE58B00084029 /* Inorder_Traversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C736563280FE58B00084029 /* Inorder_Traversal.cpp */; };
 		8C8C2E9A27EC28CC002FFB6E /* OOPS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8C2E9927EC28CC002FFB6E /* OOPS.cpp */; };
 		8C8C4ED3280336D70035FF8D /* Baseball_Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8C4ED2280336D70035FF8D /* Baseball_Game.cpp */; };
 		8C8C4ED7280426A90035FF8D /* Rotated_Sorted_Array_Search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8C4ED6280426A90035FF8D /* Rotated_Sorted_Array_Search.cpp */; };
@@ -256,6 +256,7 @@
 		8C5A2B8F280713230075B93C /* Max_and_Min.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Max_and_Min.cpp; sourceTree = "<group>"; };
 		8C6A5917276A31AB007DDBFE /* Scaler_DSA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Scaler_DSA; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C6A591A276A31AB007DDBFE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C736563280FE58B00084029 /* Inorder_Traversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Inorder_Traversal.cpp; sourceTree = "<group>"; };
 		8C73C99B276E5C6400C3A4DC /* SumOfPairK.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SumOfPairK.cpp; sourceTree = "<group>"; };
 		8C771F79279BF88A009FE7CE /* nodeCount.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = nodeCount.cpp; sourceTree = "<group>"; };
 		8C771F7B279D4F90009FE7CE /* inverseModulo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = inverseModulo.cpp; sourceTree = "<group>"; };
@@ -630,6 +631,7 @@
 				8CFFD3F3279AC1E500E25C2E /* SymmetricalTree.cpp */,
 				8C771F79279BF88A009FE7CE /* nodeCount.cpp */,
 				8C33A0A627CDFFAA0086DB72 /* countTheNodes.cpp */,
+				8C736563280FE58B00084029 /* Inorder_Traversal.cpp */,
 			);
 			path = Trees;
 			sourceTree = "<group>";
@@ -1287,7 +1289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C33A0A727CDFFAA0086DB72 /* countTheNodes.cpp in Sources */,
+				8C736564280FE58B00084029 /* Inorder_Traversal.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
