@@ -43,7 +43,6 @@ int main(){
     A->right->left = new Node(3);
     
     int ans = INT_MIN ;
-    c = NodeMax(A, ans);
-    cout << c;
+    NodeMax(A, ans);
     return ans;
 }
