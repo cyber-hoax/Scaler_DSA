@@ -19,6 +19,7 @@
 		8C53455A280000D100241837 /* ReturnHead.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C534559280000D100241837 /* ReturnHead.cpp */; };
 		8C6A591B276A31AB007DDBFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A591A276A31AB007DDBFE /* main.cpp */; };
 		8C7365712811481B00084029 /* Odd_Even_Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C73656D28112B8200084029 /* Odd_Even_Sum.cpp */; };
+		8C7365732811CCF500084029 /* Binary_Tree_From_Inorder_And_Preorder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7365722811CCF500084029 /* Binary_Tree_From_Inorder_And_Preorder.cpp */; };
 		8C8C2E9A27EC28CC002FFB6E /* OOPS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8C2E9927EC28CC002FFB6E /* OOPS.cpp */; };
 		8C8C4ED3280336D70035FF8D /* Baseball_Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8C4ED2280336D70035FF8D /* Baseball_Game.cpp */; };
 		8C8C4ED7280426A90035FF8D /* Rotated_Sorted_Array_Search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8C4ED6280426A90035FF8D /* Rotated_Sorted_Array_Search.cpp */; };
@@ -263,6 +264,7 @@
 		8C73656B2810472600084029 /* Node_Max.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Node_Max.cpp; sourceTree = "<group>"; };
 		8C73656D28112B8200084029 /* Odd_Even_Sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Odd_Even_Sum.cpp; sourceTree = "<group>"; };
 		8C73656F28113AF500084029 /* Level_order_traversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Level_order_traversal.cpp; sourceTree = "<group>"; };
+		8C7365722811CCF500084029 /* Binary_Tree_From_Inorder_And_Preorder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Binary_Tree_From_Inorder_And_Preorder.cpp; sourceTree = "<group>"; };
 		8C73C99B276E5C6400C3A4DC /* SumOfPairK.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SumOfPairK.cpp; sourceTree = "<group>"; };
 		8C771F79279BF88A009FE7CE /* nodeCount.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = nodeCount.cpp; sourceTree = "<group>"; };
 		8C771F7B279D4F90009FE7CE /* inverseModulo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = inverseModulo.cpp; sourceTree = "<group>"; };
@@ -644,6 +646,7 @@
 				8C73656B2810472600084029 /* Node_Max.cpp */,
 				8C73656D28112B8200084029 /* Odd_Even_Sum.cpp */,
 				8C73656F28113AF500084029 /* Level_order_traversal.cpp */,
+				8C7365722811CCF500084029 /* Binary_Tree_From_Inorder_And_Preorder.cpp */,
 			);
 			path = Trees;
 			sourceTree = "<group>";
@@ -1302,6 +1305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C7365712811481B00084029 /* Odd_Even_Sum.cpp in Sources */,
+				8C7365732811CCF500084029 /* Binary_Tree_From_Inorder_And_Preorder.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
