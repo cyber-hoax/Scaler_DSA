@@ -36,7 +36,7 @@ int main(){
                 while(hm[B[i]] >0){
                            ans.push_back(B[i]);
                            hm[B[i]] -- ;
-                           }
+                }
             }
 //        }    for(auto x: hm){
 //        cout << x.first << " " << x.second <<endl;
