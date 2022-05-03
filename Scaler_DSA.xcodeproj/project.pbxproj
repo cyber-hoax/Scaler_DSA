@@ -23,13 +23,12 @@
 		8C7365732811CCF500084029 /* Binary_Tree_From_Inorder_And_Preorder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7365722811CCF500084029 /* Binary_Tree_From_Inorder_And_Preorder.cpp */; };
 		8C7365752812909600084029 /* Two_sorted_array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7365742812909600084029 /* Two_sorted_array.cpp */; };
 		8C8C2E9A27EC28CC002FFB6E /* OOPS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8C2E9927EC28CC002FFB6E /* OOPS.cpp */; };
-		8C8C4ED3280336D70035FF8D /* Baseball_Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8C4ED2280336D70035FF8D /* Baseball_Game.cpp */; };
 		8C8C4ED7280426A90035FF8D /* Rotated_Sorted_Array_Search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8C4ED6280426A90035FF8D /* Rotated_Sorted_Array_Search.cpp */; };
 		8C8CBFCE27E5EBD9008C303E /* changeCharacter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8CBFCD27E5EBD9008C303E /* changeCharacter.cpp */; };
 		8CC7BF762797FA08003A3331 /* wayTooLongWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC7BF752797FA08003A3331 /* wayTooLongWords.cpp */; };
 		8CCA069B281E7A6A00A6B174 /* Backspace_String_Compare.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CCA069A281E7A6A00A6B174 /* Backspace_String_Compare.cpp */; };
 		8CCA069D281F170B00A6B174 /* Longest_substring_without_repeat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CCA069C281F170B00A6B174 /* Longest_substring_without_repeat.cpp */; };
-		8CCA069F281FCE9600A6B174 /* Sort_Array_Parity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CCA069E281FCE9600A6B174 /* Sort_Array_Parity.cpp */; };
+		8CCA06A128212E7C00A6B174 /* Shortest_Unsorted_Continous_Subarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CCA06A028212E7C00A6B174 /* Shortest_Unsorted_Continous_Subarray.cpp */; };
 		8CE46E77281BD7DB004EEFEB /* Sorting_Array_In_Given_Order.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE46E76281BD7DB004EEFEB /* Sorting_Array_In_Given_Order.cpp */; };
 /* End PBXBuildFile section */
 
@@ -353,6 +352,7 @@
 		8CCA069A281E7A6A00A6B174 /* Backspace_String_Compare.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Backspace_String_Compare.cpp; sourceTree = "<group>"; };
 		8CCA069C281F170B00A6B174 /* Longest_substring_without_repeat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Longest_substring_without_repeat.cpp; sourceTree = "<group>"; };
 		8CCA069E281FCE9600A6B174 /* Sort_Array_Parity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sort_Array_Parity.cpp; sourceTree = "<group>"; };
+		8CCA06A028212E7C00A6B174 /* Shortest_Unsorted_Continous_Subarray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Shortest_Unsorted_Continous_Subarray.cpp; sourceTree = "<group>"; };
 		8CE46E76281BD7DB004EEFEB /* Sorting_Array_In_Given_Order.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sorting_Array_In_Given_Order.cpp; sourceTree = "<group>"; };
 		8CEAE9E527D721D1000C44D3 /* lcm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lcm.cpp; sourceTree = "<group>"; };
 		8CEDC2BB27F1ADD100E3314C /* shaggyAndDistance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = shaggyAndDistance.cpp; sourceTree = "<group>"; };
@@ -640,6 +640,7 @@
 				8C14E89C27A671A200F93D29 /* keepMultiplyingFoundValuesbyTwo.cpp */,
 				8C8C4ED2280336D70035FF8D /* Baseball_Game.cpp */,
 				8CCA069E281FCE9600A6B174 /* Sort_Array_Parity.cpp */,
+				8CCA06A028212E7C00A6B174 /* Shortest_Unsorted_Continous_Subarray.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -1317,8 +1318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CCA069F281FCE9600A6B174 /* Sort_Array_Parity.cpp in Sources */,
-				8C8C4ED3280336D70035FF8D /* Baseball_Game.cpp in Sources */,
+				8CCA06A128212E7C00A6B174 /* Shortest_Unsorted_Continous_Subarray.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

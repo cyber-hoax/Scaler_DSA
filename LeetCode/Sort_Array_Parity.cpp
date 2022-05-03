@@ -53,7 +53,7 @@ int main(){
 //                    q.push(nums[i]);
 //                }
 //            }
-//            
+//
 //            while(!q.empty()){
 //                v.push_back(q.front());
 //                q.pop();
@@ -70,4 +70,18 @@ int main(){
 //                  j++ ;
 //              }
 //              }
+    
+//    int nums[] = {0,1,0,3,12};
+//    for(int i = 0 , j = 0 ; j < size(nums) ; j++){
+//               if(nums[j] != 0){
+//                   if(i!=j){
+//                        swap(nums[i], nums[j]) ;
+//                   }
+//                   i++ ;
+//
+//               }
+//
+//           }
+//
+    return 0 ; 
 }
