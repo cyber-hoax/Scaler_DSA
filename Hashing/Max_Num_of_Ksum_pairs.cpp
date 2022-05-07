@@ -12,21 +12,17 @@
 using namespace std;
 
 int main(){
-    int nums[] ={3,1,3,4,3};
-    int k = 6;
-    int count = 0 ;
-       unordered_map<int , int> hm;
-       
-       for(auto x : nums){
-           int curr = k - x ;
-           if(hm[curr] > 0){
-               count ++;
-               hm[curr] -- ;
+    int A[] ={1,2,6,6,7,9,9};
+    int B = 13;
+    unordered_map<int, int> m;
+        int n = size(A);
+       int count = 0;
+       for (int i = 0; i < n; i++) {
+           if (m.find(B - A[i]) != m.end()) {
+               count += m[B - A[i]];
            }
-           else
-           hm[x] ++ ;
+           m[A[i]]++;
        }
-       
-       return count ;
+       return count;
        }
-}
+
