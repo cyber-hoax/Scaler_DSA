@@ -30,8 +30,8 @@
 		8CCA069D281F170B00A6B174 /* Longest_substring_without_repeat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CCA069C281F170B00A6B174 /* Longest_substring_without_repeat.cpp */; };
 		8CCA06A128212E7C00A6B174 /* Shortest_Unsorted_Continous_Subarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CCA06A028212E7C00A6B174 /* Shortest_Unsorted_Continous_Subarray.cpp */; };
 		8CCA06A32821970200A6B174 /* Sort_by_color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CCA06A22821970200A6B174 /* Sort_by_color.cpp */; };
-		8CEC1A17283233F6008BC3BF /* Another_coin_problem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CEC1A16283233F6008BC3BF /* Another_coin_problem.cpp */; };
 		8CEC1A192832413D008BC3BF /* longest_substring_without_repeat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CEC1A182832413D008BC3BF /* longest_substring_without_repeat.cpp */; };
+		8CEC1A1A283293EF008BC3BF /* Distribute_candy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE1E598282EA69B00F9E4BE /* Distribute_candy.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -1538,7 +1538,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CEC1A17283233F6008BC3BF /* Another_coin_problem.cpp in Sources */,
+				8CEC1A1A283293EF008BC3BF /* Distribute_candy.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
