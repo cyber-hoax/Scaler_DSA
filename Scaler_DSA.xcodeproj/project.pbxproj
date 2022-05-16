@@ -30,8 +30,8 @@
 		8CCA069D281F170B00A6B174 /* Longest_substring_without_repeat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CCA069C281F170B00A6B174 /* Longest_substring_without_repeat.cpp */; };
 		8CCA06A128212E7C00A6B174 /* Shortest_Unsorted_Continous_Subarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CCA06A028212E7C00A6B174 /* Shortest_Unsorted_Continous_Subarray.cpp */; };
 		8CCA06A32821970200A6B174 /* Sort_by_color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CCA06A22821970200A6B174 /* Sort_by_color.cpp */; };
-		8CCA06A52822768900A6B174 /* Max_Num_of_Ksum_pairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CCA06A42822768900A6B174 /* Max_Num_of_Ksum_pairs.cpp */; };
 		8CEC1A17283233F6008BC3BF /* Another_coin_problem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CEC1A16283233F6008BC3BF /* Another_coin_problem.cpp */; };
+		8CEC1A192832413D008BC3BF /* longest_substring_without_repeat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CEC1A182832413D008BC3BF /* longest_substring_without_repeat.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -390,6 +390,7 @@
 		8CE46E76281BD7DB004EEFEB /* Sorting_Array_In_Given_Order.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sorting_Array_In_Given_Order.cpp; sourceTree = "<group>"; };
 		8CEAE9E527D721D1000C44D3 /* lcm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lcm.cpp; sourceTree = "<group>"; };
 		8CEC1A16283233F6008BC3BF /* Another_coin_problem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Another_coin_problem.cpp; sourceTree = "<group>"; };
+		8CEC1A182832413D008BC3BF /* longest_substring_without_repeat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = longest_substring_without_repeat.cpp; sourceTree = "<group>"; };
 		8CEDC2BB27F1ADD100E3314C /* shaggyAndDistance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = shaggyAndDistance.cpp; sourceTree = "<group>"; };
 		8CF7CF232807E23E00282138 /* Queues */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Queues; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF7CF252807E23E00282138 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -834,6 +835,7 @@
 				8CF7CF38280DAA7800282138 /* Distinct_Numbers_in_Window.cpp */,
 				8CE46E76281BD7DB004EEFEB /* Sorting_Array_In_Given_Order.cpp */,
 				8CCA06A42822768900A6B174 /* Max_Num_of_Ksum_pairs.cpp */,
+				8CEC1A182832413D008BC3BF /* longest_substring_without_repeat.cpp */,
 			);
 			path = Hashing;
 			sourceTree = "<group>";
@@ -1504,7 +1506,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CCA06A52822768900A6B174 /* Max_Num_of_Ksum_pairs.cpp in Sources */,
+				8CEC1A192832413D008BC3BF /* longest_substring_without_repeat.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
