@@ -29,13 +29,13 @@ void utils(bitset<32>&bits, vector<int> ans  ,int A){
 
 
 int main(){
-    int A = 3 ;
+    int A = 2 ;
     vector<int> ans;
     bitset<32> bits;
 //    utils(bits, ans , A);
     
     vector<int> anss(1<<A);
-    for (int i=0; i<(1<<A); i++){
+    for (int i=0; i<(1<<A); i++){     //can also use pow(2,A)
                 cout << i<<A <<endl ;
             
                 anss[i] = i^(i>>1);
