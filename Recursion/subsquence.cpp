@@ -82,7 +82,7 @@ int main(){
     int sum = 0;
     int B = 5 ;
     
-    return printSumSeq(v, 0, arr, n, B, sum);
+//    return printSumSeq(v, 0, arr, n, B, sum);
      
     
 }
